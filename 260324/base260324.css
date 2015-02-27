@@ -1,0 +1,300 @@
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+html, body, #myshp-body{
+    background: url("http://www.mooimedischsportief.nl/wp-content/themes/mms/images/background.png") repeat-x scroll 0 120px #EAF4F9;
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1;
+}
+
+body #myshp-body{
+}
+
+body #myshp{
+    margin: 0 auto;
+    width: 1330px;
+}
+
+input, button, select, textarea {
+    border: 1px solid #D7D7D7;
+    border-radius: 3px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin-bottom: 4px;
+    padding: 5px;
+}
+
+body #myshp-body a:link, 
+body #myshp-body a:active,
+body #myshp-body a:visited, 
+body #myshp-body a:hover {
+    color: #0CA0B2 !important
+}
+
+body #myshp-body .myshp_menu_side_categories a:link, 
+body #myshp-body .myshp_menu_side_categories a:active,
+body #myshp-body .myshp_menu_side_categories a:visited, 
+body #myshp-body .myshp_menu_side_categories a:hover {
+    color: #474A95 !important
+}
+
+#myshp_content{
+}
+
+#myshp_contentframe{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #999999;
+    float: left;
+    padding: 10px 0;
+    width: 568px;
+    margin-top: 80px;
+    margin-left: 358px;
+    position: absolute;
+    top: 125px;
+}
+
+#myshp_menu_side{
+    float: left;
+    height: 120px;
+    width: 708px;
+}
+
+.myshp_menu_side_categories {
+    float: left;
+    margin-left: -466px;
+    margin-top: 200px;
+}
+
+#myshp_form_quicksearch{
+   float: left;
+    margin-left: 10px;
+    margin-right: -174px;
+    margin-top: 20px;
+}
+
+#myshp_menu_side_search > h3{
+    display: none;
+}
+
+#myshp_menu_side_basket{
+    margin-left: 170px;
+    margin-right: -350px;
+    margin-top: 20px;
+    float: left;
+}
+
+.myshp_block_share{
+    float: left;
+    margin-left: 155px;
+    margin-top: 25px;
+    display: none;
+}
+
+#myshp_searchfield{
+    float: left;
+    font-size: 11px;
+    width: 125px;
+    color: #B7B7B7;
+}
+
+#myshp_searchbutton{
+    float: left;
+    clear: both;
+    font-size: 11px;
+    width: 65px;
+    background: url("http://www.mooimedischsportief.nl/wp-content/themes/mms/images/button.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 22px;
+    padding: 4px;
+    margin-left: 71px;
+}
+
+.myshp_list_product {
+    width: 30% !important;
+}
+
+.myshp_list_product_title,
+.myshp_info_title {
+    background: none !important;
+    color: #00A0B1 !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    padding-bottom: 10px !important;
+}
+
+
+.myshp_list_product_title a span{
+    color: #00A0B1 !important;
+}
+
+.myshp_list_product_bottom_fix {
+}
+
+.myshp_list_product_title a span {
+}
+
+.myshp_list_product_border{
+    border: none !important;
+}
+
+.myshp_info_description,
+.myshp_info_description_long,
+.myshp_info_label,
+.myshp_info_value,
+.myshp_info_price_label,
+.myshp_info_price_value,
+.myshp_list_product_value,
+.myshp_list_product_value_price{
+    line-height: 18px !important;
+    padding-bottom: 10px !important;
+    color: #333333 !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 13px !important;
+}
+
+.myshp_menu_side_categories_1{
+    font-weight: bold;
+    list-style: circle inside url("http://www.mooimedischsportief.nl/wp-content/themes/mms/images/arrow.png");
+}
+.myshp_menu_side_item{
+    line-height: 12px;
+    margin-right: 15px;
+    padding: 5px 0 5px 10px;
+}
+
+.myshp_menu_side_item a{
+    border-bottom: 1px dashed #668EA2 !important;
+    line-height: 12px !important;
+    margin-right: 15px !important;
+    padding: 5px 0 5px 10px !important;
+     color: #474A95 !important;
+    text-decoration: none !important;
+}
+
+.myshp_menu_side_categories_1 > .myshp_menu_side_item > .myshp_active_menu_item{
+    margin-left: 20px;
+    margin-top: -13px;
+}
+
+.myshp_active_menu_item .myshp_menu_side_categories_2{
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+.myshp_active_menu_item .myshp_menu_side_categories_3{
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+#myshp_content > div.myshp_block{
+    margin-top: 50px !important;
+}
+
+#myshp_content > div.myshp_block table{
+    width: 560px !important;
+}
+
+#myshp_content > div.myshp_block span{
+    font-family: Arial,Helvetica,sans-serif;   
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+.myshp_list_navigation{
+}
+
+.myshp_list_product_border_top_corner_right{
+}
+
+.myshp_breadcrumb{
+    left: -10px;
+    position: absolute;
+    top: -25px;
+}
+
+#myshp_content a.myshp_breadcrumb_link:link, 
+#myshp_content a.myshp_breadcrumb_link:active,
+#myshp_content a.myshp_breadcrumb_link:visited, 
+#myshp_content a.myshp_breadcrumb_link:hover {
+    color: #00A0B1 !important;
+    text-decoration: underline !important;
+}
+
+#myshp_info_product{
+    float: left !important;
+    padding: 15px 22px 15px 25px !important;
+}
+
+#myshp_info_navigation a {
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .myshp_menu_side_categories {
+       margin-top: 100px;
+       margin-left: -185px;
+    }
+
+    .myshp_menu_side_categories_1 > .myshp_menu_side_item > .myshp_active_menu_item {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .myshp_active_menu_item .myshp_menu_side_categories_2 {
+        margin-left: 30px;
+    }
+
+	.myshp_block_share{
+        width: 137px;
+	}
+	#myshp_searchbutton{
+        right: 190px;
+	}
+
+    .myshp_breadcrumb{
+    }
+
+    #myshp_form_quicksearch{
+        margin-left: 320px;
+        margin-top: -77px;
+    }
+    #myshp_menu_side_basket {
+        margin-left: 470px;
+        margin-top: -77px;
+        float: left;
+        width: 120px;
+    }
+
+}
+
+
+.myshp_list_row {
+    overflow: hidden;
+    width: 555px !important;
+}
+
+.myshp_list_product_title {
+    font-size: 16px !important;
+}
+
+
+#myshp_info_search_block{
+    display: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    #myshp_menu_side {
+        width: 450px;
+    }
+    #myshp_contentframe {        
+        margin-left: 225px;
+    }
+    .myshp_menu_side_item a{
+        margin-right: 0px;
+        padding: 0px;
+    }
+}

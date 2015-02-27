@@ -1,0 +1,568 @@
+/** Original MyShop's productlist.css retrieved from
+/* http://mijnwinkel.nl/skins/templates/views/default8/productlist.css
+/* $Revision: 6147 $ - $Date: 2010-08-11 01:40:25 +0200 (wo, 11 aug 2010) $ */
+
+/************************************
+*
+*	THEME
+*
+************************************/
+
+
+/************************************
+*
+*	PRODUCT LIST
+*
+************************************/
+
+a{}
+p{
+}
+#myshp_list {
+}
+.myshp_list_top {
+}
+.myshp_list_row {
+}
+.myshp_list_topleft_corner {
+}
+.myshp_list_topright_corner {
+}
+.myshp_list_bottomleft_corner {
+}
+.myshp_list_bottomright_corner {
+}
+.myshp_list_left_side {
+}
+.myshp_list_right_side {
+}
+.myshp_list_bottom_side {
+}
+.myshp_list_top_side {
+}
+/************************************
+*
+*	EACH PRODUCT ON THE LIST
+*
+************************************/
+.myshp_list_product {
+    background:#ffffff;
+    border-width: 0px;
+    /*
+    border-style: solid;
+    */
+}
+
+.myshp_list_product_border_top {
+
+}
+.myshp_list_product_border_left {
+
+}
+.myshp_list_product_border_right {
+
+}
+.myshp_list_product_border_bottom {
+
+}
+.myshp_list_product_border {
+    border: 1px solid;
+}
+.myshp_list_product_header {
+}
+.myshp_list_product_title {
+    font-size:12px;
+    background-color: #CCCCCC;
+}
+.myshp_list_product_title h1 {
+    font-size:12px;
+    font-weight: normal;
+}
+.myshp_list_product_title a span{
+    color: #666;
+}
+/*********/
+.myshp_list_product_title a:link span, .myshp_list_product_title a:active span, .myshp_list_product_title a:visited span, .myshp_list_product_title a:hover span{
+    text-decoration:none;
+}
+
+.myshp_list_product_body {
+}
+
+.myshp_list_product_box {
+}
+.myshp_list_product_features {
+    cursor: pointer;
+}
+.myshp_list_product_features *{
+    cursor: pointer;
+}
+
+
+
+.myshp_list_product_row {
+}
+.myshp_list_product_row_odd {
+}
+.myshp_list_product_row_even {
+}
+.myshp_list_product_image {
+}
+.myshp_list_product_image * {
+}
+.myshp_list_product_image_de {
+    background: url('http://www.mijnwinkel.nl/pic/cmd/de/b-orderlist.gif') no-repeat top left;
+    width:100px;
+    height:20px;
+}
+.myshp_list_product_image_en {
+    background: url('http://www.mijnwinkel.nl/pic/cmd/en/b-orderlist.gif') no-repeat top left;
+    height:20px;
+}
+.myshp_list_product_image_es {
+    background: url('http://www.mijnwinkel.nl/pic/cmd/es/b-orderlist.gif') no-repeat top left;
+    height:20px;
+}
+.myshp_list_product_image_fr {
+    background: url('http://www.mijnwinkel.nl/pic/cmd/fr/b-orderlist.gif') no-repeat top left;
+    height:20px;
+}
+.myshp_list_product_image_nl {
+    background: url('http://www.mijnwinkel.nl/pic/cmd/nl/b-orderlist.gif') no-repeat top left;
+    height:20px;
+}
+.myshp_list_product_image_pl {
+}
+.myshp_list_product_image_pt {
+}
+.myshp_list_product_image_nlb2b {
+}
+.myshp_list_product_image_fi {
+}
+.myshp_list_product_image_it {
+}
+.myshp_list_product_image_ru {
+}
+.myshp_list_product_image_se {
+}
+.myshp_list_product_label {
+    color: #333;
+    font-weight: bold;
+}
+.myshp_list_product_value {
+    color: #333;
+}
+.myshp_list_product_label_price {
+    color: #333;
+    font-weight:bold;
+}
+.myshp_list_product_value_price {
+    color: #333;
+    font-weight:bold;
+}
+.myshp_list_product_price {
+    font-weight:bold;
+}
+.myshp_list_product_quantity_label {
+}
+.myshp_list_product_quantity_value {
+}
+.myshp_list_product_quantity_field {
+}
+.myshp_list_product_select_label {
+}
+.myshp_list_product_select_value {
+}
+.myshp_list_product_select_field {
+}
+.myshp_list_product_order {
+}
+.myshp_list_product_quotation {
+}
+.myshp_list_product_buttons {
+}
+.myshp_list_product_moreinfo_button {
+    /*color: #666666;*/
+    /*font-weight:bold;*/
+    /*text-decoration:underline!important;*/
+}
+.myshp_list_product_order_button {
+    /*color: #666666;*/
+    /*font-weight:bold;*/
+    /*text-decoration:underline!important;*/
+}
+.myshp_list_product_quotation_button {
+    color: #666666;
+    font-weight:bold;
+    text-decoration:underline!important;
+}
+.myshp_list_product_footer {
+    color: #000000;
+}
+.myshp_list_product_description {
+}
+.myshp_list_product_description_long {
+}
+/************************************
+*
+*	THE BOTTOM OF THE LIST
+*
+************************************/
+.myshp_list_bottom {
+}
+.myshp_list_navigation {
+}
+.myshp_list_bottom_footer {
+}
+.myshp_list_bottom_results {
+}
+
+/************************************
+*
+*	BASE
+*
+************************************/
+
+
+/************************************
+*
+*	PRODUCT LIST
+*
+************************************/
+
+a{outline:none;
+}
+p{
+}
+#myshp_list {
+    overflow:hidden;
+    text-align:left;
+}
+
+.myshp_list_top {
+}
+.myshp_list_row {
+    overflow: hidden;
+    width: 1000px;
+}
+.myshp_list_topleft_corner {
+}
+.myshp_list_topright_corner {
+}
+.myshp_list_bottomleft_corner {
+}
+.myshp_list_bottomright_corner {
+}
+.myshp_list_left_side {
+}
+.myshp_list_right_side {
+}
+.myshp_list_bottom_side {
+}
+.myshp_list_top_side {
+}
+/************************************
+*
+*	EACH PRODUCT ON THE LIST
+*
+************************************/
+.myshp_list_product {
+    float:left;
+    text-align:center;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+.myshp_list_product_border_top {
+
+}
+.myshp_list_product_border_left {
+
+}
+.myshp_list_product_border_right {
+
+}
+.myshp_list_product_border_bottom {
+
+}
+
+.myshp_list_product_header {
+}
+.myshp_list_product_title {
+    text-align:center;
+    padding: 2px 0 2px 0;
+}
+.myshp_list_product_box {
+    position:relative;
+    overflow:hidden;
+    padding:5px;
+}
+.myshp_list_product_body{
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.innerbox{
+}
+.myshp_list_product_features {
+    margin-top: 5px;
+}
+.myshp_list_product_features table {
+    display: inline;
+    text-align: left;
+}
+.myshp_list_product_features *{
+}
+.myshp_list_product_row {
+    clear:both;
+}
+.myshp_list_product_row_odd {
+}
+.myshp_list_product_row_even {
+}
+.myshp_list_product_image {
+    margin:0;
+    text-align:center;
+    vertical-align: top;
+    overflow: visible;
+    padding:0;
+    margin-bottom: 5px;
+}
+.myshp_list_product_image * {
+}
+.myshp_list_product_label {
+    vertical-align: top;
+    padding-right: 5px;
+}
+.myshp_list_product_value {
+    vertical-align: top;
+}
+.myshp_list_product_label_price {
+}
+.myshp_list_product_value_price {
+    display:block;
+    clear:both;
+}
+
+/****** NIEUW ********/
+
+.myshp_list_product_order_section{
+    /*margin: 0px;*/
+}
+.myshp_list_product_bottom_fix {
+    bottom: 0px;
+    left: 0px;
+}
+
+.myshp_list_spacer {
+    clear: both;
+    float: none;
+    height: 15px;
+}
+
+.myshp_list_product_space_bottom {
+    clear: both;
+    float: none;
+    height: 5px;
+}
+
+.myshp_list_product_space_top {
+    clear: both;
+    float: none;
+    height: 10px;
+}
+
+.myshp_list_product_value select{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/********* EIND ************/
+
+.myshp_list_product_price {
+    padding:0 5px 5px 5px;
+}
+.myshp_list_product_quantity_label {
+}
+.myshp_list_product_quantity_value {
+}
+.myshp_list_product_quantity_field {
+}
+.myshp_list_product_select_label {
+}
+.myshp_list_product_select_value {
+}
+.myshp_list_product_select_field {
+}
+.myshp_list_product_order {
+}
+.myshp_list_product_quotation {
+}
+.myshp_list_product_buttons {
+    padding:0 5px 5px 5px;
+}
+.myshp_list_product_moreinfo_button {
+    display:block;
+    clear:both;
+}
+.myshp_list_product_order_button {
+    display:block;
+    clear:both;
+}
+.myshp_list_product_quotation_button {
+    display:block;
+    clear:both;
+}
+.myshp_list_product_footer {
+    display:none;
+}
+.myshp_list_product_description {
+}
+.myshp_list_product_description_long {
+}
+/************************************
+*
+*	THE BOTTOM OF THE LIST
+*
+************************************/
+.myshp_list_bottom {
+}
+.myshp_list_navigation {
+}
+.myshp_list_bottom_footer {
+}
+.myshp_list_bottom_results {
+}
+
+/*******************************************
+ *
+ *   HIDE GRAPHICAL BUTTONS
+ *
+ *******************************************/
+
+.myshp_list_graphic_buttons {
+    display: none;
+}
+
+/*******************************************
+ *
+ * FIX WIDTH
+ *
+********************************************/
+
+#myshp_content_frame #myshp_list {
+    width: 100%;
+}
+
+/*******************************************
+ *
+ * FIX LINK COLOR
+ *
+********************************************/
+
+#myshp_content a:link, #myshp_content a:active, #myshp_content a:visited, #myshp_content a:hover {
+    color: #666;
+}
+
+
+/* SKIN NOSKIN - BASE - $Revision: 8056 $ - $Date: 2011-02-10 16:55:48 -0300 (jue, 10 feb 2011) $  ***************/
+
+/**
+* As of this point the styling is specifically for JcImp's childshop 260326
+**/
+.myshp_list_product_body{
+    height: 100%;
+}
+.myshp_list_product_title {
+    color: #333333;
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica;
+    margin: 10px;
+    text-align:left;
+}
+
+.myshp_list_product_title a span:hover {
+    color: #ec008c;
+}
+
+.myshp_list_product_title a span {
+    color: #333333;
+}
+
+.myshp_list_product {
+    margin-right: 5px;
+    width: 215px;
+}
+
+.myshp_list_product_image{
+    height: 113px;
+    width: 150px;
+}
+.myshp_list_product_order_section {
+    margin: 15px;
+}
+.myshp_list_product_value_price,
+.myshp_list_text_buttons {
+    text-align: left;
+    font-size: 14px;
+}
+.myshp_list_product_value_price {
+    color: #ec008c;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial;
+}
+.myshp_list_product_space_top.below_price{
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.myshp_list_text_buttons {
+    display: inline-block;
+    height: 31px;
+    position: relative;
+    vertical-align: top;
+    width: 50%;
+    font-family: Arial;
+    font-size: 12px;
+}
+.myshp_icon_shopping_basket{
+    background-image: url('http://myshop.s3-external-3.amazonaws.com/shop260300.images.260326_icons_productlist.gif');
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+.myshp_icon_shopping_basket:hover {
+    background-position: 0px -61px;
+}
+.myshp_icon_more_info{
+    background-image: url('http://myshop.s3-external-3.amazonaws.com/shop260300.images.260326_icons_productlist.gif');
+    background-repeat: no-repeat;
+    background-position: -115px 1px;
+    margin-left: 10px;
+}
+.myshp_icon_more_info:hover {
+    background-position: -115px -61px;
+}
+.myshp_list_text_buttons a.myshp_list_product_order_button,
+.myshp_list_text_buttons a.myshp_list_product_moreinfo_button {
+    text-decoration: none;
+    padding-left: 14px;
+}
+#myshp_content .myshp_list_text_buttons a.myshp_list_product_order_button,
+#myshp_content .myshp_list_text_buttons a.myshp_list_product_moreinfo_button{
+    text-decoration: none;
+}
+#myshp_content .myshp_list_text_buttons a.myshp_list_product_order_button:hover,
+#myshp_content .myshp_list_text_buttons a.myshp_list_product_moreinfo_button:hover {
+    color: #ec008c;
+}
+span.myshp_list_product_order_button{
+    padding-left: 14px;
+}
+span.myshp_list_product_order_button:hover{
+    color: #ec008c;
+}

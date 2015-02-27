@@ -1,0 +1,233 @@
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+body, #myshp-body{
+    color: #685C53;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+	color: #685C53;
+    font-size: 11px;
+	background: url("http://www.annelies-aarts.nl/images/annelies_bg-home.png") no-repeat scroll right top #FCF2E9;
+}
+
+body #myshp, body #myshp-body{
+	background: none !important;
+}
+
+#myshp_content{
+	margin: 0 auto;
+	width: 961px;
+}
+
+#myshp_contentframe{
+}
+
+#myshp_menu_side{
+    background: url("http://www.annelies-aarts.nl/templates/annelies/images/header_bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 111px;
+    margin-top: 10px;
+    overflow: visible !important;
+    z-index: 1000 !important;
+    display: inline-block;
+    width: 100%;
+}
+
+.myshp_menu_side_categories {
+    float: left;
+    margin-left: -965px;
+    margin-top: 126px;
+    width: 205px;
+}
+
+#myshp_form_quicksearch{
+    float: right;
+    margin-right: -15px;
+    margin-top: 7px;
+}
+
+#myshp_menu_side_search > h3{
+	display: none;
+}
+
+#myshp_menu_side_basket{
+    float: right;
+    margin-right: -165px;
+    margin-top: 40px;
+}
+
+.myshp_block_share{
+    float: left;
+    margin-left: 450px;
+    margin-top: 13px;
+}
+
+#myshp_searchfield{
+    background: none repeat scroll 0 0 #CEC4B8;
+    border: medium none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    margin-top: 2px;
+    padding: 4px;
+    width: 160px;
+}
+
+#myshp_searchbutton{
+    background: url("http://www.annelies-aarts.nl/templates/annelies/images/default/search.png") no-repeat scroll 2px center rgba(0, 0, 0, 0);
+    border: medium none;
+    display: inline-block;
+    float: right;
+    height: 14px;
+    margin-top: 5px;
+    padding: 0;
+    position: relative;
+    right: 22px;
+    text-indent: -9999px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.myshp_list_product {
+    margin-right: 1% !important;
+    width: 30.6% !important;
+    border: 1px solid #F2DAD6 !important;
+    background: url("http://www.annelies-aarts.nl/templates/annelies/images/header_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.myshp_list_product_title,
+.myshp_info_title {
+  	color: #B98D94 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px !important;
+    font-weight: normal !important;
+    padding-bottom: 5px !important;
+    background: none !important;
+    font-style: italic !important;
+}
+
+.myshp_list_product_title a span {
+    color: #B98D94 !important;
+    font-style: italic !important;
+}
+
+.myshp_list_product_border{
+	border: none !important;
+}
+
+.myshp_info_description,
+.myshp_info_description_long,
+.myshp_info_label,
+.myshp_info_value,
+.myshp_info_price_label,
+.myshp_info_price_value,
+.myshp_list_product_value,
+.myshp_list_product_value_price{
+    color: #685C53 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+
+.myshp_menu_side_categories_1{
+    background: none repeat scroll 0 0 #FEFAF6;
+    border: 1px solid #F2DAD6;
+    margin: 0;
+    padding: 5px;
+}
+.myshp_menu_side_item{
+    border-bottom: 1px solid #F2DAD6;
+    list-style: none outside none;
+}
+
+.myshp_menu_side_item a{
+    font-family: 'Open Sans', sans-serif;
+    display: block !important;
+    font-size: 14px !important;
+    line-height: 27px !important;
+    padding-left: 5px !important;
+    width: 100% !important;
+    color: #774D55 !important;
+}
+
+#myshp_content > div.myshp_block{
+    margin-left: 200px !important;
+    margin-top: 50px !important;
+}
+
+#myshp_content > div.myshp_block table{
+	width: 600px !important;
+}
+
+#myshp_content > div.myshp_block span{
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 14px !important;
+    line-height: 27px !important;
+}
+
+.myshp_list_navigation{
+    font-family: 'Open Sans', sans-serif;	
+    font-size: 14px !important;
+    background: none !important;
+    border-bottom: 1px solid #F2DAD6;
+    border-top: 1px solid #F2DAD6;
+}
+
+.myshp_list_product_border_top_corner_right{
+	text-align: left;
+	padding: 10px;
+}
+
+.myshp_breadcrumb{
+	position: absolute !important;
+    top: 100px !important;
+}
+
+#myshp_content a.myshp_breadcrumb_link:link, 
+#myshp_content a.myshp_breadcrumb_link:active,
+#myshp_content a.myshp_breadcrumb_link:visited, 
+#myshp_content a.myshp_breadcrumb_link:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: #B98D94 !important;
+    font-size: 11px !important;
+    font-style: italic !important;
+}
+
+.myshp_active_menu_item > a{
+	background: none repeat scroll 0 0 #B98D94 !important;
+    font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF !important;
+    font-size: 14px !important;
+}
+
+.myshp_menu_side_categories_2{
+	padding-left: 10px;
+}
+
+.myshp_menu_side_categories_3{
+	padding-left: 10px;
+}
+
+#myshp_info_product{
+    background: url("http://www.annelies-aarts.nl/templates/annelies/images/header_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #F2DAD6 !important;
+    padding: 15px;
+}
+
+#myshp_info_navigation a {
+    font-family: 'Open Sans', sans-serif;
+    color: #685C53 !important;
+    font-size: 11px !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	.myshp_block_share{
+		width: 60px;
+	}
+
+	#myshp_searchbutton{
+		margin-top: -18px;
+	}
+}

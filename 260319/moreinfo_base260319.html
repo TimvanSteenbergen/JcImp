@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//Ddiv XHTML 1.0 divansitional//EN" 
+"http://www.w3.org/div/xhtml1/Ddiv/xhtml1-divansitional.ddiv">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+
+		<link rel="stylesheet" href="/skins/templates/views/common/common.css"></link>
+		<link rel="stylesheet" href="/skins/templates/views/default8/moreinfo.css"></link>
+		<style type="text/css" style="myshop-block:style-productlist">
+			
+			#myshp {
+				background:#fff;
+			}
+			.myshp_list_product { 
+				width: 200px;
+				myshop-margin-right:product-margin-width px;
+			}
+
+			.myshp_list_product_border {
+				border-color: #F9D513;
+				border-width: 3px;
+				border-style: solid;
+				padding: 10px;
+			}
+
+			.myshp_list_product_border:hover {
+				border-color: #DA3363;
+			}
+
+			.myshp_list_product_image {
+				myshop-width:product-image-width px;
+				myshop-height:product-image-height px;
+			}
+
+			.myshp_list_product_features { 
+				myshop-text-align:product-text-alignment;
+			}
+
+			.myshp_list_spacer {
+				myshop-height:product-margin-width px;
+			}
+
+			.myshp_content_width { 
+				myshop-width:productlist-width px;
+			}
+
+        	#myshp_content_frame {
+           		myshop-width:content-width px;
+           	}
+
+		</style>
+
+	</head>
+	<body>
+	
+		<div style="myshop-has:searchblock;">
+
+			<div style="myshop-is:search-method-quick">
+				<div id="myshp_info_search_block" class="myshp_info_search_form">
+					<div style="float:left; margin-right: 10px; margin-top: 5px;">
+						<div class="myshp_info_search_field_label">				
+							<span style="myshop-resource:globalsearch">Alle producten</span>
+						</div>
+						<div class="myshp_info_search_field">
+							<span style="myshop-search-field:control-global; float: left;"/>
+						</div>
+					</div>
+					<div>
+						<div class="myshp_info_search_field" style="margin-top:19px; float: left;">
+							<a style="myshop-action:search;" class="myshp_button icon_align_left icon_image_search">
+								<span class="btn_bg_left">&nbsp;</span>
+								<span class="btn_bg_center">
+									<span class="btn_icon">&nbsp;</span>
+									<span class="btn_text" style="myshop-resource:search">Search</span>
+								</span>			
+								<span class="btn_bg_right">&nbsp;</span>
+							</a>						
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div style="myshop-is:search-method-category">
+				<!-- Not supported yet, use a 2.4 shop -->
+			</div>
+			<div style="myshop-is:search-method-column">
+				<!-- Not supported yet, use a 2.4 shop -->
+			</div>
+
+			<div style="myshop-is:search-method-extended">
+
+				<div id="myshp_info_search_block" class="myshp_info_search_form">
+					<span style="myshop-repeat:search-fields">
+						<div style="float:left; margin-right: 10px; margin-top:5px;">
+							<span style="myshop-not-has:search-field-max;">
+								<div class="myshp_info_search_field_label">
+									<span style="myshop-search-field:label"/>:
+								</div>
+								<div class="myshp_info_search_field">
+									<span style="myshop-search-field:control"/>
+								</div>
+							</span>
+							<span style="myshop-has:search-field-max;">
+								<div style="float:left; margin-right:10px;">
+									<div class="myshp_info_search_field_label">
+										<span style="myshop-search-field:label"/>&#160;<span style="myshop-resource:from;">van</span>:
+									</div>
+									<div class="myshp_info_search_field">
+										<input size="11" style="myshop-search-field:control"/>
+									</div>
+								</div>
+								<div style="float:left;">
+									<div class="myshp_info_search_field_label">
+										<span style="myshop-search-field:label"/>&#160;<span style="myshop-resource:to;">t/m</span>:
+									</div>
+									<div class="myshp_info_search_field">
+										<input size="11" style="myshop-search-field:control-max"/>
+									</div>
+								</div>
+							</span>
+						</div>
+					</span>
+					<span style="myshop-has:global-search">
+						<div style="float:left; margin-right: 10px; margin-top: 5px;">
+							<div class="myshp_info_search_field_label">				
+								<span style="myshop-resource:globalsearch">Alle producten</span>
+							</div>
+							<div class="myshp_info_search_field">
+								<span style="myshop-search-field:control-global; float: left;"/>
+							</div>
+						</div>
+					</span>
+					<div class="myshp_info_search_button">
+						<a style="myshop-action:search;" class="myshp_button icon_align_left icon_image_search">
+							<span class="btn_bg_left">&nbsp;</span>
+							<span class="btn_bg_center">
+								<span class="btn_icon">&nbsp;</span>
+								<span class="btn_text" style="myshop-resource:search">Search</span>
+							</span>			
+							<span class="btn_bg_right">&nbsp;</span>
+						</a>						
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="clear"></div>
+
+
+		<!-- Check if there are products -->
+		<!--
+		<div>
+		-->
+
+
+			<!-- Productinfo -->
+			<div style="myshop-block:productlist;" id="myshp-product">
+
+				<!-- Display product block -->
+				<div style="myshop-block:product;" id="myshp_info_product">
+
+					<h1 style="myshop-product:title; font-size:26px;" class="myshp_info_title"></h1>
+
+					<!-- Image -->
+					<div class="myshp_info_image">
+						<div id="myshp_info_image_large" class="myshp_info_image_large">
+							<span style="myshop-has:lightbox">
+								<span style="myshop-product:image;">lightbox-zoom</span>
+							</span>
+							<span style="myshop-not-has:lightbox">
+								<img src="myshop-product:image;" alt="alttekst nog niet aanwezig"/>
+							</span>
+						</div>
+
+						<!-- Small images -->
+						<span style="myshop-has:extra-images">
+							<span style="myshop-repeat:extra-images-large">
+								<img class="myshp_info_image_large" src="myshop-value:extra-image-large;" style="width:300px;display:none;" alt="alttekst nog niet aanwezig"/>
+							</span>
+							<div class="myshp_info_extra_images">
+								<span style="myshop-repeat:extra-images">
+									<a style="myshop-action:extra-image">
+										<img src="myshop-value:extra-image" style="myshop-style-width:extra-image-width px; myshop-style-height:extra-image-height px" />
+									</a>
+								</span>
+							</div>
+						</span>
+
+					</div>
+
+					<!-- Productfields -->
+					<div class="myshp_info_features">
+						<!-- Title -->
+						<h1 style="myshop-product:title;" class="myshp_info_title"></h1>
+						<!-- Description -->
+						<div style="myshop-has-product-value:description-short;">
+							<div class="myshp_info_description" style="myshop-product:description-short;">&nbsp;</div>
+						</div>
+						<!-- Fields -->
+						<table>
+							<span style="myshop-repeat:product-features">
+								<span style="myshop-not-is:feature-price">
+									<tr class="myshp_info_row" style="myshop-has-value:feature">
+										<td class="myshp_info_label"><span style="myshop-feature:label"/>:&nbsp;&nbsp;</td>
+										<td class="myshp_info_value" style="myshop-feature:value"></td>
+									</tr>
+								</span>
+							</span>
+
+							<!-- *** Deze werken nog niet -->
+							<!--
+							<span style="myshop-repeat:order-fields">
+								<tr class="myshp_info_row">
+									<td style="myshop-value:label">label</td>
+									<td style="myshop-value:control">order field control</td>
+								</tr>
+							</span>
+							-->
+
+						</table>
+						<table>
+							<tr class="myshp_info_row">
+								<td class="myshp_info_price_value"><!--<span style="myshop-product:label"/>-->Prijs:&nbsp;<span style="myshop-product:price;"></span>&nbsp;</td>
+							</tr>
+
+							<span style="myshop-is:in-stock">
+								<span style="myshop-has:order;">
+									<span style="myshop-has:quantity-field;">
+										<tr class="myshp_info_row">
+											<td class="myshp_info_value">
+												<input type="text" size="3" style="myshop-control:quantity"/>
+												&nbsp;
+												<span style="myshop-control-label:quantity-metric">&nbsp;</span>
+											</td>
+										</tr>
+									</span>
+									<tr class="myshp_info_row">
+										<td class="myshp_info_value">
+											<div id="myshp_info_order">
+<a href="#" style="myshop-action:order; margin-right:0px;">
+<div class="btn_inwinkelmandje">In winkelmandje</div>
+</a>
+											</div>
+										</td>
+									</tr>
+								</span>
+							</span>
+							<span style="myshop-not-is:in-stock">
+									<tr class="myshp_info_row">
+										<td class="myshp_info_value">
+											<div id="myshp_info_order">
+												Dit product is niet op voorraad en niet bestelbaar
+											</div>
+										</td>
+									</tr>								
+							</span>
+
+						</table>
+						<!-- Order button -->
+					</div>
+
+					<div class="clear"/>
+					
+<h1 class="myshp_info_title">Uitgebreide omschrijving</h1>
+
+					<div class="myshp_info_description_long" style="myshop-product:description-long;"/>
+					
+					<div class="clear"/>
+				
+					<!-- Begin - Related Products -->
+					<div id="myshp_basket_related" style="myshop-block:related-products">
+					   <div id="myshp_basket_related_header">
+						  <h1 class="myshp_info_title">Bijpassende artikelen</h1>
+					   </div>
+			<div style="myshop-block:productlist;" id="myshp_list">
+
+						<div style="myshop-block:product; width:170px;" class="myshp_list_product">
+							<div class="myshp_list_product_border">
+								<div class="productlistimage"><img src="myshop-product:image;" alt="myshop-product:title;" class="myshp_list_product_image"/></div>
+									<div style="myshop-repeat:product-features">
+									  <div style="myshop-is:feature-price">
+										 <b>
+											<span class="myshp_list_product_value_price" style="myshop-feature:value;">&nbsp;</span><br/>
+										 </b>
+									  </div>
+								   </div>
+								<div style="myshop-product:title" class="my_titles">&nbsp;</div>		
+								<div style="myshop-value:Beschrijving" class="myshp_list_product_value my_features">&nbsp;</div>		
+									<a href="#"  style="myshop-action:moreinfo; margin-right:0px;">
+										<div class="img_opvoorraad">Op voorraad</div>
+									</a>
+									<a href="#" style="myshop-action:moreinfo; margin-right:0px;">
+										<div class="btn_bekijken"> Bekijken</div>
+									</a>
+														
+							</div>
+
+						</div>
+			
+			</div>
+					   
+
+					</div>	
+
+					<!-- End - Related Products -->				
+
+				<!-- Product block end -->
+				</div>
+	
+			<!-- Productlist block end -->
+			</div>
+			<div class="clear"/>
+
+			<div id="myshp_info_footer_bottom">
+				<div id="myshop_info_footer" style="myshop-default:powered-by"></div>
+			</div>
+			
+		<!-- End products check -->
+		<!--
+		</div>
+		-->
+
+		<!-- Check if there are no products -->
+		<!--
+		<div style="myshop-not-has:products">
+		-->
+			<!-- Display noproducts block -->
+		<!-- End check if there are no products -->
+		<!--
+		</div>
+		-->
+
+	</body>
+</html>

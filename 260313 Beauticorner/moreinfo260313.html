@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!--	Copyright 1999-2004© MijnWinkel B.V. All Rights Reserved - Version 1.1 	-->
+		<!-- Handleiding staat op http://www.mijnwinkel.nl/ -->
+		<!--	Versie 060701	-->
+		<!--
+				Changelog:
+					12-06-06 Sem van der Wal
+						Initiële build
+					31-07-06 Sem van der Wal
+						Voorbeeldtekst toegevoegd
+		-->
+		<!--
+			Note to the user of this template:
+			This template uses very specific named values to ensure rightly positioning
+			of the various product information. These values are (you probably need to change them
+			to match your own shop):
+			- title (line 112, 114)
+			- short_desc (line 117, 119)
+			- description (line 245, 247)
+			- picture (line 105)
+			- thumb (line 276)
+			- price (line 227)
+		-->
+		<!-- Allow only 15 products per page -->
+		<meta name="myshop-settings-products" content="15" />
+		<meta name="Description" content="Place your website description here" />
+		<meta name="Keywords" content="keyword1, keyword2, keyword3"/>
+		<meta name="Robots" content="all"/>
+		<meta http-equiv="Expires" content="0" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-control" content="no-cache" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+		<title>Moreinfo Template</title>
+		<style type="text/css">
+			body{color:#424956;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:8pt;font-weight:normal;white-space:normal;}
+			td{font-size:8pt;font-family:Verdana, Arial, Helvetica, sans-serif;white-space:normal;}
+			td.bold{font-size:7pt;font-weight:bold;}
+			a:link,a:visited,a:active,a:active,a:hover{color:#424956}
+			a.active:active,a.notactive:active{font-weight:bold}
+			a.active:hover,a.notactive:hover{color:#424956}
+		</style>
+	</head>
+	<body>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+			
+			<!-- Insert the default menu if activated for the productlist -->
+				<td valign="top" width="10%" align="center" style="myshop-has:menu">
+					<table id="stretch2" border="0" width="100%">
+					<tr>
+						<td style="myshop-block:menu-default;myshop-style-background-color:{$color(2)};" valign="top">[standaard menu, mits geactiveerd]</td>
+					</tr>
+					</table>
+				</td>
+				<td valign="top" align="center">
+
+					<!-- Insert the default search block if activated for the productlist -->
+					<table width="100%" style="myshop-has:searchblock">
+						<tr>
+							<td width="100%" style="myshop-block:search-default;myshop-style-background-color:{$color(2)};" align="center">[standaard zoekblok, mits geactiveerd]</td>
+						</tr>
+					</table>
+
+					<br/><br/>
+
+					<!-- Productinfo -->
+					<table cellpadding="0" cellspacing="0" width="100%" border="0">
+						<tr>
+							<td width="15">&#160;</td>
+							<td align="center" valign="top">
+								<table cellspacing="0" cellpadding="0" border="0" width="100%">
+									<tr>
+										<td> <!-- Plek om de bovenste balk te maken -->
+											<table cellspacing="0" cellpadding="0" width="100%" border="0">
+												<tr>
+													<td align="left">
+														<a style="myshop-action: back; font-size: 8pt; font-weight: normal; color: #666666; text-decoration: none;">&lt;&lt; terug naar overzicht</a>
+													</td>
+													<td width="60px" style="font-size: 8pt; font-weight: normal; color: #666666; text-decoration: none;">
+														<a style="myshop-action:previous-moreinfo-product ; font-size: 8pt; font-weight: normal; color: #666666; text-decoration: none;">&lt;&lt; vorige</a>
+													</td>
+													<td width="5px"></td>
+													<td width="80px" style="font-size: 8pt; font-weight: normal; color: #666666; text-decoration: none;">
+														<a style="myshop-action:next-moreinfo-product;  font-size: 8pt; font-weight: normal; color: #666666; text-decoration: none;">volgende &gt;&gt;</a>
+													</td>
+												</tr>
+												<tr>
+													<td height="2px"></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="1px" style="background:url(http://www.mijnwinkel.nl/pic/dotted_line.gif);">
+										</td>
+									</tr>
+									<tr>
+										<td style="myshop-block:productlist"> <!-- Product info -->
+											<table style="myshop-block:product" cellspacing="0" cellpadding="0" border="0">
+												<tr>
+													<td width="40%">
+														<img style="myshop-image:picture" src="http://www.mijnwinkel.nl/homepage/demo/default8/5W333_2AA.jpg"  alt="afbeelding"/>
+													</td>
+													<td width="60%">
+														<table>
+															<tr>
+																<td height="5px"></td>
+															</tr>
+															<tr style="myshop-has-value:title">
+																<td colspan="3" style="font-size:8pt;font-weight:bold;">
+																	<span style="myshop-value:title;">Stretchhemdje</span>
+																</td>
+															</tr>
+															<tr style="myshop-has-value:short_desc">
+																<td colspan="3">
+																	<span style="myshop-value:short_desc">Nauwsluitend hemdje met V-hals</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="8px"></td>
+															</tr>
+															<tr style="myshop-has-value:3">
+																<td class="bold">
+																	<span style="myshop-label:3;">ArtikelNr</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:3">5W333_1</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:4">
+																<td class="bold">
+																	<span style="myshop-label:4;">Topjes/T-shirts</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:4">Topjes/T-shirts</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:5">
+																<td class="bold">
+																	<span style="myshop-label:5;">Kleur</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:5">White</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:6">
+																<td class="bold">
+																	<span style="myshop-label:6;">Maat</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:6">XS</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:7">
+																<td class="bold">
+																	<span style="myshop-label:7;">Pasvom</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:7">aansluitende pasvorm</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:8">
+																<td class="bold">
+																	<span style="myshop-label:8;">Samenstelling</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:8">95% katoen 5% elasthaan</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:9">
+																<td class="bold">
+																	<span style="myshop-label:9;">Label 9</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:9">Waarde 9</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:10">
+																<td class="bold">
+																	<span style="myshop-label:10;">Label 10</span>:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:10">Waarde 10</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="2px"></td>
+															</tr>
+															<tr style="myshop-has-value:price">
+																<td class="bold">
+																	Prijs:
+																</td>
+																<td width="3px"></td>
+																<td>
+																	<span style="myshop-value:price; font-size:9pt; font-weight: bold">€ 27,95</span>
+																</td>
+															</tr>
+															<tr>
+																<td height="5px"></td>
+															</tr>
+															<tr>
+																<td colspan="2">&nbsp;</td>
+																<td>
+																	<a style="myshop-action: order"><img src="http://www.mijnwinkel.nl/pic/cmd/nl/orderinfo.gif" alt="Bestel" border="0"/></a>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td height="10px"></td>
+												</tr>
+												<tr style="myshop-has-value:description">
+													<td colspan="2">
+														<span style="myshop-value:description">
+															Nauwsluitend katoenen stretchtopje met verstelbare spaghettibandjes in visgraatmotief. Diepe V-hals met grote oogjes en model in empirestijl, op de rug Mexx-labeltje met kleine oogjes. Riempje met dubbel D-ringetje op wijde zoom.
+															Fijne katoenen stof, heerlijk licht voor in de lente of zomer. Dit hemdje is verkrijgbaar in de kleuren White en Deep Atlantic en in verschillende maten, het heeft een aansluitende pasvorm. Wasvoorschrift: Wasmachine, eerste keer handwassen. De ringetjes aan de voorkant en de gespen van de bandjes zijn van kopermetaal. De stof is van 95% katoen en 5% elasthaan.
+														</span>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td height="20px"></td>
+									</tr>
+									<tr>
+										<td>
+											<span style="font-weight:bold; font-size:10pt; color: #3366d5;">Bijpassende artikelen</span>
+										</td>
+									</tr>
+									<tr>
+										<td style="myshop-block:related-products"> <!-- Bijpassende producten -->
+											<table style="myshop-block:productlist">
+												<tr style="myshop-block:product">
+													<td>
+														<table cellspacing="0" cellpadding="0" border="0">
+															<tr>
+																<td height="1px" 	style="background:url(http://www.mijnwinkel.nl/pic/dotted_line.gif);">
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<table cellspacing="0" cellpadding="0" border="0">
+																		<tr>
+																			<td>
+																				<img style="myshop-image:thumb" src="http://www.mijnwinkel.nl/homepage/demo/default8/thumbs/5W009_9CS.jpg" alt="afbeelding"/>
+																			</td>
+																			<td width="10px">
+																			</td>
+																			<td>
+																				<table cellspacing="0" cellpadding="0" border="0">
+																					<tr style="myshop-has-value:1;">
+																						<td class="bold">
+																							<span style="myshop-label:1;">Kleur</span>:
+																						</td>
+																						<td width="3px"></td>
+																						<td>
+																							<span style="myshop-value:1;">Deep Atlantic</span>
+																						</td>
+																					</tr>
+																					<tr style="myshop-has-value:2;">
+																						<td class="bold">
+																							<span style="myshop-label:2;">Maat</span>:
+																						</td>
+																						<td width="3px"></td>
+																						<td>
+																							<span style="myshop-value:2;">36</span>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td height="3px"></td>
+																					</tr>
+																					<tr>
+																						<td colspan="3">
+																							<a style="myshop-action: moreinfo; color: #666666;font-size:8pt;">meer info</a>
+																						</td>
+																					</tr>
+																					<tr>
+																						<td height="5px"></td>
+																					</tr>
+																					<tr>
+																						<td colspan="3">
+																							<a style="myshop-action: order"><img src="http://www.mijnwinkel.nl/pic/cmd/nl/orderlist.gif" alt="Bestel" border="0"/></a>
+																						</td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td height="10px"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td width="25px">&#160;</td>
+						</tr>
+						<tr>
+							<td colspan="3">&#160;</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

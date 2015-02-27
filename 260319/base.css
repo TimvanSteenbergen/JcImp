@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+
+body, input, textarea {
+    color: #838383;
+    font: 300 13px/18px Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: #1982D1 !important;
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0 0 1.625em 2.5em;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+body{
+	background-attachment: fixed;
+    background-color: #F1F1F1;
+    background-image: url("http://www.vanlennepkliniek.nl/wp-content/uploads/achtergrond-blauw.jpg");
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+h1{
+    color: #3D96D1 !important;
+    display: block !important;
+    font-size: 22px !important;
+    font-weight: 100 !important;
+    line-height: 24px !important;
+    margin-bottom: 2px !important;
+    text-align: left !important;
+    margin-top: 20px;
+}
+
+#myshp-body{
+	background: none repeat scroll 0 0 #FFFFFF;
+	margin: 0 auto;
+    max-width: 980px;
+}
+
+#myshp{
+	float: left;
+	padding-top: 20px;
+}
+
+#myshp_menu_side{
+	float: left;
+	padding: 10px;
+	width: 25%;
+}
+
+#myshp_menu_side .myshp_block{
+    float: left;
+    margin-left: 55px;
+    margin-top: -37px;
+}
+
+#myshp_contentframe .myshp_block{
+    float: right;
+}
+
+.myshp_box{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#myshp_menu_side .myshp_box{
+    margin-left: -10%;
+}
+
+#myshp_contentframe .myshp_box{
+    margin-left: -20%;
+}
+
+.myshp_menu_side_categories{
+    float: left;
+    margin-left: 42px;
+    margin-top: -45px;
+}
+
+.myshp_menu_side_categories > ul{
+	list-style: none;
+}
+
+.myshp_menu_side_item{
+	background: none repeat scroll 0 0 #ECF7FD;
+    color: #F3D2FD;
+    line-height: 30px;
+    list-style-type: none;
+    margin-left: -30px;
+    display: inline-block;
+}
+
+.myshp_menu_side_item:nth-child(odd){
+    background: none repeat scroll 0 0 #D4ECF8;    
+}
+
+.myshp_menu_side_submenu_item2{
+    background: none repeat scroll 0 0 #ECF7FD; 
+    display: inline-block;
+    float: left;
+}
+
+.myshp_menu_side_categories_2:nth-child(even) > .myshp_menu_side_submenu_item2{
+    background: none repeat scroll 0 0 #D4ECF8;    
+}
+
+.myshp_menu_side_submenu_item3{
+    background: none repeat scroll 0 0 #ECF7FD;
+    display: inline-block;
+    float: left;
+}
+
+.myshp_menu_side_categories_3:nth-child(even) > .myshp_menu_side_submenu_item3{
+    background: none repeat scroll 0 0 #D4ECF8;    
+}
+
+.myshp_menu_side_categories a{
+    border-top: 1px solid #BFE4F4;
+    border-width: 1px 0;
+    box-shadow: none;
+    color: #A3B7C0 !important;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: -1px;
+    padding-left: 32px;
+    text-transform: uppercase;
+    width: 212px;
+}
+
+.myshp_menu_side_categories .myshp_menu_side_categories_2 a{
+    width: 180px;
+}
+
+.myshp_menu_side_categories .myshp_menu_side_categories_3 a{
+    width: 140px;
+}
+
+.myshp_active_menu_item{
+    float: left;
+}
+
+#myshp_form_quicksearch{
+	float: left;
+}
+
+#myshp_menu_side_search{
+	margin-left: 45px;
+	float: left;
+    margin-top: 10px;
+}
+
+#myshp_menu_side_basket{
+	margin-left: 45px;
+    float: left;
+    margin-top: 10px;
+}
+
+#myshp_menu_side_basket h3{
+	font-size: 10px;
+    letter-spacing: 0.1em;
+    line-height: 2.6em;
+    text-transform: uppercase;
+}
+
+#myshp_searchfield{
+	width: 130px;
+}
+
+#myshp_contentframe{
+	float: right;
+	width: 70%;
+}
+
+
+#myshp_content span > a, 
+#myshp_list a,
+{
+    color: #1982D1 !important;;
+    text-decoration: none;
+}
+#myshp_content .myshp_box span{
+	font-size: 100% !important;
+}
+
+#myshp_list .myshp_list_row{
+	width: 100%;	
+	margin-bottom: 20px;
+}
+
+#myshp_list .myshp_list_product {
+    margin-right: 18px;
+    width: 200px;
+}
+
+#myshp_list .myshp_list_product_title{
+	padding: 10px 0;
+	background-color: white;
+    color: #3D96D1;
+    display: block;
+    font-size: 13px;
+    margin-top: 5px;
+    padding: 0 1.2125em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#myshp_list .myshp_list_product_title span{
+    color: #3D96D1;
+}
+
+#myshp_list .myshp_list_product_value,
+#myshp_list .myshp_list_product_value_price {
+    color: #838383
+}
+
+#myshp_list .myshp_list_product_title:hover{
+	font-weight: bold;
+}
+
+#myshp_list .myshp_list_product_border{
+	border: none;
+}
+
+#myshp_content .myshp_list_navigation{
+	text-align: center;
+}
+
+#myshp_content .myshp_list_navigation > div{
+	float: none !important;
+	font-size: 12px;
+}
+
+#myshp-product{
+    margin-left: 52px;
+}
+
+.myshp_info_description, 
+.myshp_info_value, 
+.myshp_info_label,
+.myshp_info_description_long{
+    font-size: 12px !important;
+    color: #838383 !important;
+    padding-right: 30px;
+}
+
+.myshp_info_features{
+    float: left;
+    clear: both;
+}
+
+.myshp_info_description_long{
+    margin-bottom: 50px;
+}
+
+#myshp_info_product .myshp_list_product{
+    width: auto !important;
+    margin-bottom: 20px;
+}

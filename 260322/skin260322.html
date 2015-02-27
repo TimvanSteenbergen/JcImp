@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.mijnwinkel.nl/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<title style="myshop-value:page-title"></title>
+
+		<meta content="myshop-meta:google-site-verification" name="google-site-verification"></meta>
+
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"></meta>
+		<meta content="author" name="MijnWinkel"></meta>
+		<meta content="myshop-meta:keywords" name="keywords"></meta>
+		<meta content="myshop-meta:description" name="description"></meta>		
+		<meta http-equiv="expires" content="0" ></meta>
+		<meta http-equiv="pragma" content="no-cache"> </meta>
+		<meta http-equiv="cache-control" content="no-cache"> </meta>
+		<meta name="myshop-settings-orderpage-width" content="473"/>
+		<meta name="myshop-settings-orderpage-height" content="235"/>			
+		
+		<link media="all" style="myshop-resource-ref:style-sheet" href="base.css" type="text/css" rel="stylesheet"></link>
+		<link media="all" style="myshop-resource-ref:style-sheet" href="theme.css" type="text/css" rel="stylesheet"></link>
+		<script type="text/javascript" src="/skins/noskin_v2/script/skin.js"></script>	
+		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>	
+		<style type="text/css">
+
+			body {
+				height:100%;
+				margin:0;
+				padding:0;
+			}
+
+			#overlay {
+				display: none;
+			     position: fixed;
+			     left: 0px;
+			     top: 0px;
+			     width:100%;
+			     height:100%;
+			     text-align:center;
+			     z-index: 1000;
+			     font-size: 14px;
+			     text-align: left;
+			}
+
+			#overlay div {
+			     width:300px;
+			     margin: 100px auto;
+			     background-color: #fff;
+			     border:1px solid #000;
+			     padding:15px;
+			     text-align:center;
+			}
+
+			#overlay p {
+			    text-align: left;
+			    line-height: 1.5;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<div id="myshp">
+			<!--Start of the side menu -->
+			<div id="myshp_menu_side">
+				<div style="margin: 0 auto; width: 1335px;">
+					<img style="margin-left: 212px; float: left;" src="http://myshop.s3-external-3.amazonaws.com/shop4337500.images.260322_logo_d2c.png"></img>
+					<div style="myshop-repeat:components row2 col1">
+						<div id="myshp_menu_side_topbar" style="display:none"></div>
+							<!--  Side menu Quick search -->
+							<div id="myshp_menu_side_search" style="myshop-block:side-menu-quick-search">
+								<h3 style="myshop-resource:menuSearch;">
+								</h3>
+								<div id="myshp_quicksearch">
+									<input id="myshp_searchfield" style="myshop-control:quick-search" />
+									<button id="myshp_searchbutton" style="myshop-action:quick-search"><span style="myshop-resource:search"></span></button>
+								</div>
+							</div>
+							
+							<div style="myshop-has:access">
+								<div id="myshp_menu_side_logout" style="myshop-block:side-menu-logout">
+									<h3 class="myshp_myaccount_login_header" style="myshop-resource:logout.header"></h3>
+									<div class="myshp_myaccount_logoutdata_row_button">
+										<button id="myshp_logoutbutton" style="myshop-action:logout"><span style="myshop-resource:logout.button"></span></button>
+									</div>
+								</div>
+							</div>
+		
+							<div style="myshop-not-has:access">
+								<div id="myshp_menu_side_login" style="myshop-block:side-menu-login">
+									<div class="myshp_myaccount_login_account">
+										<h3 class="myshp_myaccount_login_header" style="myshop-resource:login.header"></h3>
+										<div class="myshp_myaccount_logindata">
+											<div class="myshp_myaccount_logindata_row">
+												<label class="myshp_myaccount_logindata_label" style="myshop-resource:login.email"></label>
+												<span class="myshp_myaccount_logindata_field"><input id="myshp_myaccount_login_username" style="myshop-control:username"/></span>
+												<div class="clear"></div>
+											</div>
+											<div class="myshp_myaccount_logindata_row">
+												<label class="myshp_myaccount_logindata_label" style="myshop-resource:login.password"></label>
+												<span class="myshp_myaccount_logindata_field"><input id="myshp_myaccount_login_password" type="password" style="myshop-control:password"/></span>
+												<div class="clear"></div>
+											</div>
+											<div class="myshp_myaccount_logindata_row_button">
+												<button id="myshp_loginbutton" style="myshop-action:login"><span style="myshop-resource:login.button"></span></button>
+												<div class="clear"></div>
+											</div>
+											<div class="myshp_myaccount_login_info">
+												<span class="myshp_myaccount_login_info_link">
+													<a style="myshop-action:request-password"><span style="myshop-resource:login.request.password"></span></a>
+												</span>
+												<div class="clear"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	
+
+							<div id="myshp_menu_side_basket" style="myshop-block:side-menu-basket-info">
+								<h3 style="myshop-resource:basket">
+								</h3>
+								<div id="myshp_menu_side_basket_content">
+									<span style="myshop-basket:count"></span>
+									<br />
+									<a style="myshop-action:goto-basket">
+										<span style="myshop-resource:viewbasket">
+										</span>
+									</a>
+								</div>
+							</div>
+
+							<img src="http://myshop.s3-external-3.amazonaws.com/shop4337500.images.JCI0314%20Logo%20JC%20IMP%20certified%20webshop.png" style="float: left; margin-left: -443px; margin-top: 265px; width: 185px;" />
+		
+							<div style="myshop-has:menu">
+								<div class="myshp_menu_side_categories" style="myshop-block:side-menu-items">
+									<ul class="myshp_menu_side_categories_1">
+										<li class="myshp_menu_side_item" style="myshop-repeat:menu-items-level-1">
+											<div style="myshop-is-active:menu-item" class="myshp_active_menu_item">
+												<a style="myshop-action:menu-item"><span style="myshop-label:menu-item;"></span></a>
+												<!-- level 1 -->
+												<ul class="myshp_menu_side_categories_2" style="myshop-repeat:menu-items-level-2">
+													<li class="myshp_menu_side_submenu_item2">
+														<div style="myshop-is-active:menu-item" class="myshp_active_menu_item">
+															<a style="myshop-action:menu-item"><span class="myshp_menu_side_submenu_item_active2" style="myshop-label:menu-item;"></span></a>
+															<!-- level 3 -->
+															<ul class="myshp_menu_side_categories_3" style="myshop-repeat:menu-items-level-3">
+																<li class="myshp_menu_side_submenu_item3">
+																	<div style="myshop-is-active:menu-item" class="myshp_active_menu_item">
+																		<a style="myshop-action:menu-item"><span class="myshp_menu_side_submenu_item_active2" style="myshop-label:menu-item"></span></a>
+																		<!--  level 4 -->
+																		<ul class="myshp_menu_side_categories_4" style="myshop-repeat:menu-items-level-4">
+																			<li class="myshp_menu_side_submenu_item4">
+																				<span style="myshop-is-active:menu-item" class="myshp_active_menu_item">
+																					<a style="myshop-action:menu-item"><span class="myshp_menu_side_submenu_item_active2" style="myshop-label:menu-item;"></span></a>
+																				</span>
+																				<span style="myshop-not-is-active:menu-item" class="myshp_not_active_menu_item">
+																					<a style="myshop-action:menu-item">
+																						<span style="myshop-label:menu-item"></span>
+																					</a>
+																				</span>
+																			</li>
+																		</ul>
+																	</div>
+																	<span style="myshop-not-is-active:menu-item" class="myshp_not_active_menu_item">
+																		<a style="myshop-action:menu-item">
+																			<span style="myshop-label:menu-item"></span>
+																		</a>
+																	</span>
+																</li>
+															</ul>
+			
+														</div>
+														<span style="myshop-not-is-active:menu-item" class="myshp_not_active_menu_item">
+															<a style="myshop-action:menu-item">
+																<span style="myshop-label:menu-item"></span>
+															</a>
+														</span>
+													</li>
+			
+												</ul>
+											</div>
+											<span style="myshop-not-is-active:menu-item" class="myshp_not_active_menu_item">
+												<a style="myshop-action:menu-item">
+													<span style="myshop-label:menu-item"></span>
+												</a>
+											</span>
+			
+										</li>
+									</ul>
+								</div>
+							</div>
+		
+							<div class="myshp_menu_side_custom" style="myshop-block:side-menu-custom-1;">
+								<h3 style="myshop-resource:menuExtra">
+								</h3>
+								<div class="myshp_menu_side_custom_content">
+									<a style="myshop-action:custom-link1">
+										<span style="myshop-resource:menuContact"></span>
+									</a>
+									<br />
+									<a style="myshop-action:custom-link2">
+										<span style="myshop-resource:menuConditions"></span>
+									</a>
+								</div>
+							</div>
+		
+							<div class="myshp_menu_side_custom" style="myshop-block:side-menu-custom-2;">
+								<h3 style="myshop-value:custom-2-title">
+								</h3>
+								<div class="myshp_menu_side_custom_content">
+									<span style="myshop-value:custom-2"></span>
+								</div>
+							</div>
+							<div class="myshp_menu_side_custom" style="myshop-block:side-menu-custom-3;">
+								<h3 style="myshop-value:custom-3-title">
+								</h3>
+								<div class="myshp_menu_side_custom_content">
+									<span style="myshop-value:custom-3"></span>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<!--close menu_side-->
+			<div id="myshp_contentframe">
+				<div id="myshp_content">
+					<div style="myshop-repeat:components row2 col2">
+						<div style="myshop-block:content"></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</body>
+	<div id="overlay">
+	     <div>
+	     	<span id="messageEx" style="float: right; margin-top: -15px; margin-right: -10px; cursor: pointer;">x</span>
+     		  <img width="50px;" style="float: left;" src="http://myshop.s3-external-3.amazonaws.com/shop4337500.images.warning_page.png"></img>
+	          <p>U gebruikt een Apple-product met Apple's browser Safari. Daarmee kan het soms voorkomen dat u in onze shops geen bestelling kunt plaatsen. U kunt ervoor kiezen om toch door te gaan in Safari, of om een bestelling te plaatsen via andere browser, bijvoorbeeld Google's gratis browser <a target="_blank" href="https://www.google.com/intl/en/chrome/browser/?hl=en&brand=CHMA&utm_campaign=en&utm_source=en-ha-na-us-bk&utm_medium=ha">Chrome</a>.</p>
+	     </div>
+	</div>
+	<script type="text/javascript">
+
+		function hideOverlay(){
+	       	$('#overlay').hide();
+	       	localStorage["seen"] = "true";
+		}
+
+		function showOverlay(){
+			if(localStorage["seen"] != "true"){
+	       		$('#overlay').show();		
+			}
+		}
+
+		$('#overlay div').click(function(e) {
+			showOverlay();
+	        e.stopPropagation();
+	    });
+	    $('body').click(function(e) {
+	    	hideOverlay();
+	    });
+
+	    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+			showOverlay();
+		}
+
+		$('#messageEx').click(function(e){
+	    	hideOverlay();
+	        e.stopPropagation();
+		});
+		
+
+		$('#myshp_searchfield').attr('placeholder', 'Zoek...');
+	
+		$('.myshp_active_menu_item').find('ul').hide();
+
+		$(document).click(function() {
+	        $('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > span > ul').hide();
+	        $('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > span > a').css('background-color', '');
+	        $('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > div > ul').hide();
+	        $('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > div > a').css('background-color', '');
+	    });
+
+	    $('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > span > a').mouseenter(
+	    	function(){
+	    		$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > span > ul').hide();
+	    		$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > span > a').css('background-color', '');
+	        	$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > div > ul').hide();
+	        	$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > div > a').css('background-color', '');
+	        	$(this).siblings('ul').show();
+	    	}
+	    );
+
+	    $('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > div > a').mouseenter(
+	    	function(){
+	    		$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > span > ul').hide();
+	    		$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > span > a').css('background-color', '');
+	        	$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > div > ul').hide();
+	        	$('.myshp_menu_side_categories > ul.myshp_menu_side_categories_1 > li > div > a').css('background-color', '');
+	        	$(this).siblings('ul').show();
+	    	}
+	    );
+
+		$('ul.myshp_menu_side_categories_1 > li.myshp_menu_side_item > span.myshp_not_active_menu_item').mouseenter(
+			function(e){
+				$(this).children('ul').show();
+				$(this).children('ul').children('li').children('div').show();
+				var target = $(e.target);    
+    			if(target.parent().parent('li.myshp_menu_side_item').length === 0){
+					var $prev = $(this).closest('ul').prev().find('.myshp_not_active_menu_item').eq(0);
+					$prev.find('ul').hide();
+					$prev.children('ul').children('li').children('div').hide();
+				}
+			}
+		).mouseleave(function(e){						
+				var target = $(e.target);    
+				$(this).children('ul').hide();
+				$(this).children('ul').children('li').children('div').hide();
+				e.stopPropagation();					
+			}
+		);
+
+		$('ul.myshp_menu_side_categories_1 > li.myshp_menu_side_item > div.myshp_active_menu_item').mouseenter(
+			function(e){
+				$(this).children('ul').show();
+				$(this).children('ul').children('li').children('div').show();
+				var target = $(e.target);    
+    			if(target.parent().parent('li.myshp_menu_side_item').length === 0){
+					var $prev = $(this).closest('ul').prev().find('.myshp_active_menu_item').eq(0);
+					$prev.find('ul').hide();
+					$prev.children('ul').children('li').children('div').hide();
+				}
+			}
+		).mouseleave(function(e){						
+				var target = $(e.target);    
+				$(this).children('ul').hide();
+				$(this).children('ul').children('li').children('div').hide();
+				e.stopPropagation();					
+			}
+		);
+
+		$('ul.myshp_menu_side_categories_2 > li.myshp_menu_side_submenu_item2 > span.myshp_not_active_menu_item > a').click(
+			function(e){
+				e.preventDefault();
+				e.stopPropagation();
+				$(this).siblings('ul').slideToggle(1);
+				$(this).siblings('ul').children('li').children('div').slideToggle();
+				if($(this).siblings('ul').length === 0){
+					window.location = $(this).attr('href');
+				}
+			}
+		);
+
+		$('ul.myshp_menu_side_categories_2 > li.myshp_menu_side_submenu_item2 > div > span.myshp_not_active_menu_item > a').click(
+			function(e){
+				e.preventDefault();
+				e.stopPropagation();
+				$(this).siblings('ul').slideToggle(1);
+				$(this).siblings('ul').children('li').children('div').slideToggle();				
+				if($(this).siblings('ul').length === 0){
+					window.location = $(this).attr('href');
+				}
+			}
+		);
+
+		$('ul.myshp_menu_side_categories_2 > li.myshp_menu_side_submenu_item2 > div.myshp_active_menu_item > a').click(
+			function(e){
+				e.preventDefault();
+				e.stopPropagation();
+				$(this).siblings('ul').slideToggle(1);
+				$(this).siblings('ul').children('li').children('div').slideToggle();
+				if($(this).siblings('ul').length === 0){
+					window.location = $(this).attr('href');
+				}				
+			}
+		);
+
+		$('.myshp_menu_side_item').each(function(){
+			var tmpWidth = $(this).children().children('a').width();			
+			$(this).width(tmpWidth + 35);
+			$(this).css('max-width', tmpWidth + 35);
+			$(this).css('min-width', '105px');
+		});
+
+		var firstSpan = $('.myshp_menu_side_item').find('span').first();
+		firstSpan.closest('myshp_menu_side_item').width(firstSpan.width());
+
+	</script>
+</html>

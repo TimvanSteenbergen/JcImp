@@ -1,0 +1,388 @@
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+html, body, #myshp-body{
+    color: #000000;
+    font-family: verdana;
+    font-size: 12px;
+
+}
+
+body #myshp-body{
+}
+
+body #myshp{
+    margin: 0 auto;
+    width: 950px;
+}
+
+#myshp_content{
+}
+
+#myshp_contentframe{
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin: 35px auto 0 -10px;
+    position: absolute;
+    width: 965px;
+}
+
+#custom_header{
+    background: url("http://www.annettestender.nl/images/header-bg.jpg") repeat-x scroll 100% 100%;
+    width: 100%;
+    height: 126px;
+
+}
+
+#myshp_menu_side{
+    float: left;
+    height: 126px;
+    margin-top: -126px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.myshp_menu_side_categories {
+    float: left;
+    width: 87%;
+    z-index: 99999;
+}
+
+#myshp_form_quicksearch{
+    margin-left: 460px;
+    position: absolute;
+    top: 58px;
+}
+
+#myshp_menu_side_search > h3{
+    display: none;
+}
+
+#myshp_menu_side_basket{
+    margin-left: 815px;
+    position: absolute;
+    top: 5px;
+}
+
+.myshp_block_share{
+    float: left;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+#myshp_menu_side .myshp_block{
+    float: left;
+    margin-left: 225px;
+    margin-top: 60px;
+}
+
+#myshp_searchfield{
+    float: left;
+    width: 150px;
+    height: 19px;
+}
+
+#myshp_info_search_block{
+    display: none;
+}
+
+.myshp_menu_side_item > div, .myshp_menu_side_item > span {
+    float: left;
+    width: 100%;
+}
+
+#myshp_searchbutton{
+}
+
+.myshp_list_product {
+    width: 30% !important;
+}
+
+.myshp_list_product_title,
+.myshp_info_title {
+    background: none !important;
+}
+
+.myshp_list_product_bottom_fix {
+}
+
+.myshp_list_product_title a span {
+    color: #241A0E !important;
+    font-size: 15.5px !important;
+    font-weight: normal !important;
+    line-height: 16px !important;
+    margin: 15px 10px 10px !important;
+    padding: 0 !important;
+    text-transform: uppercase !important;
+}
+
+.myshp_list_product_border{
+    border: none !important;
+}
+
+.myshp_info_description,
+.myshp_info_description_long,
+.myshp_info_label,
+.myshp_info_value,
+.myshp_info_price_label,
+.myshp_info_price_value,
+.myshp_list_product_value,
+.myshp_list_product_value_price{
+    color: #855E3D !important;
+}
+
+.myshp_menu_side_categories_1{
+    display: inline-flex;
+}
+.myshp_menu_side_item{
+    background: white !important;
+}
+
+.myshp_menu_side_item a{
+    float: left;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px !important;
+    text-decoration: none;
+    width: 155px;
+    color: #000000;
+}
+
+.myshp_active_menu_item{
+}
+
+
+.myshp_active_menu_item > a{
+        color: #000000 !important;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+.myshp_menu_side_item ul {
+    position: relative;
+    z-index: 99999;
+        clear: both;
+    float: left;
+}
+
+.myshp_menu_side_categories_2{
+}
+
+.myshp_menu_side_categories_3{
+}
+
+#myshp_content > div.myshp_block{
+}
+
+#myshp_content > div.myshp_block table{
+    margin: 90px auto 0 !important;
+    width: 600px !important;
+}
+
+#myshp_content > div.myshp_block span{
+     color: #855E3D !important;
+      font-family: Arial;
+    font-size: 13px;
+}
+
+.myshp_list_navigation{
+     color: #855E3D !important;
+      font-family: Arial;
+    font-size: 13px;
+}
+
+.myshp_list_product_border_top_corner_right,
+.myshp_info_features{
+        font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 10px;
+    padding: 0;
+    text-transform: uppercase;
+     color: #855E3D !important;
+}
+
+.myshp_list_product_title, .myshp_info_title{
+    font-size: 18px !important;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 10px;
+    padding: 0;
+    text-transform: uppercase;
+     color: #855E3D !important;
+}
+
+.myshp_breadcrumb{
+    height: 12px;
+    padding: 15px 0;
+    position: absolute;
+    top: -45px;
+    width: 960px;
+}
+
+#myshp_content a.myshp_breadcrumb_link:link, 
+#myshp_content a.myshp_breadcrumb_link:active,
+#myshp_content a.myshp_breadcrumb_link:visited, 
+#myshp_content a.myshp_breadcrumb_link:hover {
+    color: #855E3D !important;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#myshp_info_product{
+
+}
+
+#myshp_info_navigation a {
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .myshp_menu_side_categories {
+    }
+	.myshp_block_share{
+	}
+	#myshp_searchbutton{
+	}
+}
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+    .myshp_menu_side_categories_1 {
+        display: inline-flex;
+    }
+}
+
+.myshp_list_product {
+    padding: 15px;
+    height: 150px !important;
+    width: 28% !important;
+}
+
+.myshp_list_product * {
+    color: #FFFFFF !important;
+}
+
+.myshp_list_product_body > a{
+    float: left !important;
+}
+
+.myshp_list_product_features{
+    float: right !important;
+    margin-right: 70px !important;
+    margin-top: 0px !important;
+}
+
+.myshp_list_product_bottom_fix {
+    float: right !important;
+    margin-right: -5px !important;
+    margin-top: -67px !important;
+    position: relative !important;
+    width: auto !important;
+}
+
+.myshp_list_product_border_left {
+    height: 30px !important;
+}
+
+.myshp_list_row:nth-child(3n+2) .myshp_list_product:nth-child(3n+1) {  
+    background: url("http://www.annettestender.nl/images/dark.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.myshp_list_row:nth-child(3n+2) .myshp_list_product:nth-child(3n+2) {  
+    background: url("http://myshop.s3-external-3.amazonaws.com/shop4337500.images.gold.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.myshp_list_row:nth-child(3n+2) .myshp_list_product:nth-child(3n+2) * {  
+    color: #231B0E !important;
+}
+
+.myshp_list_row:nth-child(3n+2) .myshp_list_product:nth-child(3n+3) {  
+    background: url("http://www.annettestender.nl/images/light.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.myshp_list_row:nth-child(3n+2) .myshp_list_product:nth-child(3n+3) * {  
+    color: #231B0E !important;
+}
+
+
+
+.myshp_list_row:nth-child(3n+3) .myshp_list_product:nth-child(3n+3) {  
+    background: url("http://www.annettestender.nl/images/dark.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.myshp_list_row:nth-child(3n+3) .myshp_list_product:nth-child(3n+1) {  
+    background: url("http://myshop.s3-external-3.amazonaws.com/shop4337500.images.gold.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.myshp_list_row:nth-child(3n+3) .myshp_list_product:nth-child(3n+1) * {  
+    color: #231B0E !important;
+}
+
+.myshp_list_row:nth-child(3n+3) .myshp_list_product:nth-child(3n+2) {  
+    background: url("http://www.annettestender.nl/images/light.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.myshp_list_row:nth-child(3n+3) .myshp_list_product:nth-child(3n+2) * {  
+    color: #231B0E !important;
+}
+
+
+
+.myshp_list_row:nth-child(3n+1) .myshp_list_product:nth-child(3n+2) {  
+    background: url("http://www.annettestender.nl/images/dark.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.myshp_list_row:nth-child(3n+1) .myshp_list_product:nth-child(3n+3) {  
+    background: url("http://myshop.s3-external-3.amazonaws.com/shop4337500.images.gold.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.myshp_list_row:nth-child(3n+1) .myshp_list_product:nth-child(3n+3) * {  
+    color: #231B0E !important;
+}
+
+.myshp_list_row:nth-child(3n+1) .myshp_list_product:nth-child(3n+1) {  
+    background: url("http://www.annettestender.nl/images/light.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.myshp_list_row:nth-child(3n+1) .myshp_list_product:nth-child(3n+1) * {  
+    color: #231B0E !important;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    .myshp_list_product_bottom_fix{
+        margin-right: 0px !important;
+        margin-left: 100px !important;
+    }
+}
+
+#footer{
+    float: left;
+    margin-top: 715px;
+    z-index: 99999;    
+    position: absolute;
+}
+
+
+#footer .brand {
+    display: block;
+    float: left;
+    margin: 10px;
+    opacity: 0.5;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+
+#footer a:hover{
+    opacity: 1;
+}
+
+.myshp_menu_side_submenu_item2{
+    float: left;
+    background: url("http://myshop.s3-external-3.amazonaws.com/shop4337500.images.gold.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.myshp_menu_side_item a{
+    background: url("http://myshop.s3-external-3.amazonaws.com/shop4337500.images.gold.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}

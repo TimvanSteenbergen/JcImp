@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!--	Copyright 1999-2004© MijnWinkel B.V. All Rights Reserved - Version 1.1 	-->
+	<!-- Handleiding staat op http://www.mijnwinkel.nl/ -->
+	<!-- Allow only 15 products per page -->
+
+	<!--	Version 06 06 02	-->
+	<!--
+			Changelog:
+				09-06-06 Sem van der Wal
+					Initiële versie
+					Uitlijning kolommen: 200px | 10px | 200px | 10px | 200px | *
+				12-06-06 Sem van der Wal
+					Aanpassingen in titel - conditionele weergave toegevoegd
+	-->
+
+	<!--	Note to the user of this template	-->
+	<!-- 
+			Please be aware that at this moment EVERY field set in the editor to be displayed
+			will be shown without label, as long as there are no more then 10.
+			This means that fields containing pictures will also be displayed.
+			It is up to you to comment out the fields you do not wish te be shown, for each item (there are three).
+
+			This template shows three items in each row.
+	-->
+
+	<meta name="myshop-settings-products" content="15" />
+	<meta name="Description" content="Place your website description here" />
+	<meta name="Keywords" content="keyword1, keyword2, keyword3"/>
+	<meta name="Robots" content="all"/>
+	<meta http-equiv="Expires" content="0" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Cache-control" content="no-cache" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<title>Productlist Template</title>
+	<script type="text/javascript">
+		function borderchange(c,b){if(c)c.style.borderColor=(b)?'#000000':'#cccccc'}
+	</script>
+	<style type="text/css">
+		body{color:#424956;;text-align:right;font-family: Arial, Helvetica, sans-serif;font-size:12pt;font-weight:normal}
+		a{color: #424956; text-decoration: none}
+		a:hover{color: #424956; text-decoration: underline; cursor: hand}
+		td{font-size:9pt;font-family:Verdana, Arial, Helvetica, sans-serif}
+
+		<!-- b is voor de basket -->
+		img {margin: 0px 0px 0px;}
+		.search {color:#666;font-family: Arial, Helvetica, sans-serif;font-size:8pt;font-weight:normal;}
+		.search td {color:#666;font-family: Arial, Helvetica, sans-serif;font-size:8pt;font-weight:normal;}
+		.search select {color:#666;font-family: Arial, Helvetica, sans-serif;font-size:8pt;font-weight:normal;}
+		.search input {color:#666;font-family: Arial, Helvetica, sans-serif;font-size:8pt;font-weight:normal;}
+		.search a {cursor: hand;}
+		.search a:hover{cursor: hand;text-decoration: none;}
+		.navigation {background-color:#ffffff;padding-right: 0px; border-top: #ccc 1px solid; margin: 15px 0px 15px 0px; padding-left: 0px; font-size: 75%; padding-bottom: 11px; padding-top: 9px; border-bottom: #ccc 1px solid;}
+		.item {padding-right: 0px; padding-left: 0px; font-size: 75%; float: left; padding-bottom: 0px; padding-top: 0px; height: auto; background-color: #fff}
+		.centeredImage {text-align:center; margin-top:0px; margin-bottom:0px; padding:0px;}
+		#floating {	}
+	</style>
+</head>
+<body align="left">
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<!-- Insert the default menu if activated for the productlist -->
+			<td valign="top" width="10%" align="center" style="myshop-has:menu">
+				<table id="stretch2" border="0" width="100%">
+					<tr>
+						<td style="myshop-block:menu-default;myshop-style-background-color:{$color(2)};" valign="top">
+							[standaard menu, mits geactiveerd]
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td valign="top" align="center" width="90%">
+				<!-- Insert the default search block if activated for the productlist -->
+				<table width="100%" style="myshop-has:searchblock">
+					<tr>
+						<td width="100%" style="myshop-block:search-default;" bgcolor="#cccccc" class="search" align="center">
+							[standaard zoekblok, mits geactiveerd]
+						</td>
+					</tr>
+				</table>
+				<!-- Create the list if results are found -->
+				<table style="myshop-has:results" cellpadding="0" cellspacing="0" width="100%" border="0">
+					<tr>
+						<td width="30">&nbsp;&nbsp;</td>
+						<td align="center" style="myshop-productlist:top-navigation-default" class="navigation" cellspacing="0">
+							[standaard top-navigation, komt vanaf pagina 2]
+						</td>
+					</tr>
+					<tr>
+						<td width="30">&nbsp;&nbsp;</td>
+						<td>
+							<table style="myshop-block: productlist" align="left" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td colspan="3">
+										<div style="color: rgb(0, 0, 0); clear: left; width: 1px; height: 15px;" class="range-item"> </div>
+									</td>
+								</tr>
+								<tr>
+									<td style="myshop-block: product">
+										<div style="color: rgb(0, 0, 0); clear: left; width: 1px; height: 15px;"> </div>
+										<div style="width: 15px; height: 15px; float: left;"> </div>
+										<div onmouseout="borderchange(this,0)" onmouseover="borderchange(this,1)" style="border: 1px solid rgb(204, 204, 204); margin-left: 12.5px; width: 150px; text-align: right; height: 186px;" class="item" id="0">
+											<a style="myshop-action: moreinfo;" href="javascript:void(0);">
+												<div style="width: 100%; position: relative; height: 100%;" id="innerbox0">
+													<p class="centeredImage">
+														<img width="100" src="http://www.mijnwinkel.nl/homepage/demo/default8/thumbs/5W333_2AA.jpg" border="0" alt="" style="myshop-image: 1; position: relative; top: 5px;"/>
+													</p>
+													<div style="border: 0px solid rgb(204, 204, 204); width: 100%; text-align: center; font-family: arial,Helvetica,sans-serif; font-size: 10pt; position: absolute; bottom: 2px; right: 0pt;">
+														<span style="myshop-value:title; color:rgb(102, 102, 102);">Stretchhemdje</span>
+														<br/>
+														<span style="myshop-value:short_desc; color:rgb(102, 102, 102);">Nauwsluitend hemdje met V-hals</span>
+														<br/>
+														<span style="myshop-value:price; color:rgb(102, 102, 102); font-weight:bold;">€ 27,95 	</span>
+														<br/>
+													</div>
+												</div>
+											</a>
+										</div>
+									</td>
+									<td style="myshop-block: product">
+										<div style="color: rgb(0, 0, 0); clear: left; width: 1px; height: 15px;"> </div>
+										<div style="width: 15px; height: 15px; float: left;"> </div>
+										<div onmouseout="borderchange(this,0)" onmouseover="borderchange(this,1)" style="border: 1px solid rgb(204, 204, 204); margin-left: 12.5px; width: 150px; text-align: right; height: 186px;" class="item" id="0">
+											<a style="myshop-action: moreinfo;" href="javascript:void(0);">
+												<div style="width: 100%; position: relative; height: 100%;" id="innerbox0">
+													<p class="centeredImage">
+														<img width="100" src="http://www.mijnwinkel.nl/homepage/demo/default8/thumbs/5W333_2AA.jpg" border="0" alt="" style="myshop-image: 1; position: relative; top: 5px;"/>
+													</p>
+													<div style="border: 0px solid rgb(204, 204, 204); width: 100%; text-align: center; font-family: arial,Helvetica,sans-serif; font-size: 10pt; position: absolute; bottom: 2px; right: 0pt;">
+														<span style="myshop-value:title; color:rgb(102, 102, 102);">Stretchhemdje</span>
+														<br/>
+														<span style="myshop-value:short_desc; color:rgb(102, 102, 102);">Nauwsluitend hemdje met V-hals</span>
+														<br/>
+														<span style="myshop-value:price; color:rgb(102, 102, 102); font-weight:bold;">€ 27,95 </span>
+														<br/>
+													</div>
+												</div>
+											</a>
+										</div>
+									</td>
+									<td style="myshop-block: product">
+										<div style="color: rgb(0, 0, 0); clear: left; width: 1px; height: 15px;"> </div>
+										<div style="width: 15px; height: 15px; float: left;"> </div>
+										<div onmouseout="borderchange(this,0)" onmouseover="borderchange(this,1)" style="border: 1px solid rgb(204, 204, 204); margin-left: 12.5px; width: 150px; text-align: right; height: 186px;" class="item" id="0">
+											<a style="myshop-action: moreinfo;" href="javascript:void(0);">
+												<div style="width: 100%; position: relative; height: 100%;" id="innerbox0">
+													<p class="centeredImage">
+														<img width="100" src="http://www.mijnwinkel.nl/homepage/demo/default8/thumbs/5W333_2AA.jpg" border="0" alt="" style="myshop-image: 1; position: relative; top: 5px;"/>
+													</p>
+													<div style="border: 0px solid rgb(204, 204, 204); width: 100%; text-align: center; font-family: arial,Helvetica,sans-serif; font-size: 10pt; position: absolute; bottom: 2px; right: 0pt;">
+														<span style="myshop-value:title; color:rgb(102, 102, 102);">Stretchhemdje</span>
+														<br/>
+														<span style="myshop-value:short_desc; color:rgb(102, 102, 102);">Nauwsluitend hemdje met V-hals</span>
+														<br/>
+														<span style="myshop-value:price; color:rgb(102, 102, 102); font-weight:bold;">€ 27,95 </span>
+														<br/>
+													</div>
+												</div>
+											</a>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="15px"></td>
+					</tr>
+				</table>
+				<table cellspacing="0" cellpadding="0" border="0" align="left">
+					<tr>
+						<!-- Insert the deafult footer with the powered by info and the navigation buttons -->
+						<td width="58"><span style="width: 60px;">&nbsp;&nbsp;</span></td>
+						<td width="510" cellspacing="0" class="navigation">
+							<span style="myshop-productlist:bottom-navigation-default; width: 498px">[standaard bottom-navigation]</span>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td width="15">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+	</table>
+	<span style="myshop-block:noresults"/>
+</body>
+</html>
