@@ -1,0 +1,663 @@
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+body, #myshp-body{
+    color: #685C53;
+    font-family: Tahoma, Arial, Droid Sans, 'Open Sans', sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+	color: #685C53;
+    font-size: 11px;
+}
+
+body #myshp, body #myshp-body{
+	background: none;
+}
+
+#myshp{
+	padding-top:20px !important;
+}
+#myshp_content{
+	margin: 0 auto;
+	width: 730px;
+	padding-left: 166px;
+}
+#myshp_content form{
+	border-left: 1px solid #eee;
+}
+
+#myshp_contentframe{
+}
+
+/******************************************************
+*
+*					SIDE MENU
+*
+******************************************************/
+#myshp_menu_side {
+	float: left;
+	width: 140px;
+	padding: 10px 0;
+	overflow: hidden;
+	position: absolute;
+	margin-left: -480px;
+	left: 50%;
+}
+
+	#myshp_menu_side_topbar {
+		margin-top: 0px;
+		width: 100%;
+		height: 32px;
+	}
+
+	#myshp_menu_side_search {
+		margin:0 0 13px;
+		padding: 0 0 5px;
+	}
+
+		#myshp_quicksearch {
+			padding: 3px 0px 3px 5px;
+		}
+
+	#myshp_searchfield {
+		width: 80px;
+		margin-right: 5px;
+	}
+
+	#myshp_searchbutton {
+		padding: 1px 3px;
+		width: auto;
+	}
+
+.myshp_menu_side_custom {
+	margin:0 0 13px;
+	padding: 0 0 5px;
+}
+
+	.myshp_menu_side_custom_content {
+		padding-top: 3px;
+		padding-left:5px;
+	}
+
+#myshp_menu_side_categories {
+	width: 138px;
+	margin:0 0 13px;
+	overflow:hidden;
+	padding: 0 0 5px;
+}
+	#myshp_menu_side_categories ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+
+		.myshp_menu_side_item {
+			padding-bottom: 1px;
+			margin: 0px;
+			padding-top: 3px;
+			padding-left:5px;
+			font-size:12px;
+		}
+		.myshp_menu_side_item a {
+			color: #666 !important;
+			display: block !important;
+			text-decoration: none !important;
+		}
+			.myshp_menu_side_submenu_hidden {
+				display: none;
+				visibility: hidden;
+			}
+
+			.myshp_menu_side_submenu_visible {
+				display: block;
+				padding-left: 10px;
+			}
+				.myshp_menu_side_submenu_item2 {
+					border: none;
+					margin-left: 0px;
+					padding-top: 3px;
+				}
+
+					.myshp_menu_side_submenu_item2 a:link {
+						padding-left: 8px;
+					}
+
+					.myshp_menu_side_submenu_item2 a:visited {
+						padding-left: 8px;
+					}
+
+					.myshp_menu_side_submenu_item_active2 {
+						padding-left: 8px;
+					}
+
+					.myshp_menu_side_submenu_item2 a:hover {
+						padding-left: 8px;
+						/*background: url(submenuover.gif) #fff no-repeat left top*/
+					}
+
+						.myshp_menu_side_submenu_item3 {
+							border: none;
+							margin-left: 0px;
+							padding-top: 3px;
+						}
+
+							.myshp_menu_side_submenu_item3 a:link {
+								padding-left: 14px;
+							}
+
+							.myshp_menu_side_submenu_item3 a:visited {
+								padding-left: 14px;
+							}
+
+							.myshp_menu_side_submenu_item_active3 {
+								padding-left: 14px;
+							}
+
+							.myshp_menu_side_submenu_item3 a:hover {
+								padding-left: 14px;
+								/*background: url(submenuover.gif) #fff no-repeat left top*/
+							}
+
+								.myshp_menu_side_submenu_item4 {
+									border: 0;
+									margin-left: 0px;
+									padding-top: 3px;
+								}
+
+									.myshp_menu_side_submenu_item4 a:link {
+										padding-left: 20px;
+									}
+
+									.myshp_menu_side_submenu_item4 a:visited {
+										padding-left: 20px;
+									}
+
+									.myshp_menu_side_submenu_item_active4 {
+										padding-left: 20px;
+									}
+
+									.myshp_menu_side_submenu_item4 a:hover {
+										padding-left: 20px;
+										/*background: url(submenuover.gif) #fff no-repeat left top*/
+									}
+
+
+#myshp_menu_side_basket {
+	width: 138px;
+	margin:0 0 13px;
+	padding: 0 0 5px;
+}
+
+	#myshp_menu_side_basket_content {
+		padding-left:5px;
+	}
+
+
+#myshp_menu_side_login,
+#myshp_menu_side_logout{
+	margin:0 0 13px;
+	padding: 0;
+}
+
+	#myshp_menu_side_login .myshp_myaccount_login_account{
+		width: 140px;
+		height: auto;
+		padding: 0px; 
+	}
+	
+	#myshp_menu_side_login .myshp_myaccount_logindata_label{
+		float: left;
+		clear: both;
+	}
+	#myshp_menu_side_login .myshp_myaccount_logindata_field{
+		float: left;
+		clear: both;
+	}
+
+	#myshp_menu_side_login .myshp_myaccount_logindata{
+		padding-bottom:5px;
+	}
+	
+	#myshp_menu_side_login .myshp_myaccount_logindata_row{
+		padding:5px;
+		clear: both;
+		float: none;
+	}
+	
+		#myshp_menu_side_login #myshp_myaccount_login_username,
+		#myshp_menu_side_login #myshp_myaccount_login_password{
+			width:123px;
+			padding: 1px;
+		}
+		
+	#myshp_menu_side_login .myshp_myaccount_logindata_row_button,
+	#myshp_menu_side_logout .myshp_myaccount_logoutdata_row_button{
+		margin:5px;
+		height:19px;
+		font-size:12px;
+		text-align:right;
+		padding:5px 0 0 5px;
+		clear: both;
+		float: none;
+	}
+	
+		#myshp_menu_side_login .myshp_myaccount_logindata_label{
+			font-size:12px;
+		}
+		
+		#myshp_menu_side_login #myshp_loginbutton, 
+		#myshp_menu_side_logout #myshp_logoutbutton{
+			margin: 0px 0 0 5px;
+			padding:0 4px;
+			height:19px;
+			font-size:11px;
+			text-decoration:none;
+			text-transform:capitalize;
+			cursor:pointer;
+			line-height:14px; 
+		}
+	
+	#myshp_menu_side_login .myshp_myaccount_login_info{
+		clear:both;
+		font-size:10px;
+		text-align:center;
+		padding-bottom: 5px;
+	}
+	
+		#myshp_menu_side_login .myshp_myaccount_login_info .myshp_myaccount_login_info_link,
+		#myshp_menu_side_login .myshp_myaccount_login_info .myshp_myaccount_login_info_link a:link,
+		#myshp_menu_side_login .myshp_myaccount_login_info .myshp_myaccount_login_info_link a:active,
+		#myshp_menu_side_login .myshp_myaccount_login_info .myshp_myaccount_login_info_link a:hover,
+		#myshp_menu_side_login .myshp_myaccount_login_info .myshp_myaccount_login_info_link a:visited{
+			text-decoration:none;
+			cursor:pointer;
+			margin: 0;
+		}
+
+#myshp_menu_side h3{
+	margin:0;
+	padding:3px 5px 3px;
+	font-size:12px;
+}
+/*
+#myshp_menu_side{
+    height: 111px;
+    margin-top: 10px;
+    overflow: visible !important;
+    z-index: 1000 !important;
+    display: inline-block;
+    width: 100%;
+}
+
+.myshp_menu_side_categories {
+    float: left;
+    margin-left: -965px;
+    margin-top: 126px;
+    width: 205px;
+}
+
+
+
+#myshp_form_quicksearch{
+    float: right;
+    margin-right: -15px;
+    margin-top: 7px;
+}
+
+#myshp_menu_side_search > h3{
+	display: none;
+}
+
+#myshp_menu_side_basket{
+    float: right;
+    margin-right: -165px;
+    margin-top: 40px;
+}
+
+.myshp_block_share{
+    float: left;
+    margin-left: 450px;
+    margin-top: 13px;
+}
+
+#myshp_searchfield{
+    background: none repeat scroll 0 0 #CEC4B8;
+    border: medium none;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    margin-top: 2px;
+    padding: 4px;
+    width: 160px;
+}
+
+#myshp_searchbutton{
+    border: medium none;
+    display: inline-block;
+    float: right;
+    height: 14px;
+    margin-top: 5px;
+    padding: 0;
+    position: relative;
+    right: 22px;
+    text-indent: -9999px;
+    width: 18px;
+    cursor: pointer;
+}
+*/
+.myshp_list_product {
+    margin-right: 1% !important;
+    width: 24% !important;
+    border: 0px !important;
+}
+
+.myshp_list_product_title,
+.myshp_info_title,
+.myshp_info_description_long b {
+  	color: #666 !important;
+    font-family: Tahoma, Arial, Droid Sans, 'Open Sans', sans-serif;
+    font-weight: bold !important;
+    padding-bottom: 5px !important;
+    background: none !important;
+	font-size: 11px !important;
+    margin: 0 !important;
+    min-height: 55px !important;
+	text-transform: uppercase !important;
+}
+
+.myshp_list_product_title a span {
+    color: #000000 !important;
+}
+
+.myshp_list_product_border{
+	border: none !important;
+}
+
+.myshp_info_description,
+.myshp_info_description_long,
+.myshp_info_label,
+.myshp_info_value,
+.myshp_info_price_label,
+.myshp_info_price_value,
+.myshp_list_product_value,
+.myshp_list_product_value_price{
+    font-family: Tahoma, Arial, Droid Sans, 'Open Sans', sans-serif;
+    font-size: 11px !important;
+    line-height: 24px !important;
+	color: #666 !important;
+}
+/*
+.myshp_menu_side_categories_1{
+    background: none repeat scroll 0 0 #FEFAF6;
+    border: 1px solid #F2DAD6;
+    margin: 0;
+    padding: 5px;
+}
+.myshp_menu_side_item{
+    border-bottom: 1px solid #F2DAD6;
+    list-style: none outside none;
+}
+
+.myshp_menu_side_item a{
+    font-family: 'Open Sans', sans-serif;
+    display: block !important;
+    font-size: 14px !important;
+    line-height: 27px !important;
+    padding-left: 5px !important;
+    width: 100% !important;
+    color: #774D55 !important;
+}
+*/
+
+
+#myshp_content > div.myshp_block table{
+	width: 600px !important;
+}
+
+#myshp_content > div.myshp_block span{
+    font-family: Tahoma, Arial, Droid Sans, 'Open Sans', sans-serif;    
+    font-size: 14px !important;
+    line-height: 27px !important;
+}
+
+.myshp_list_navigation{
+    background: none !important;
+    border-bottom: 1px solid #F2DAD6;
+    border-top: 1px solid #F2DAD6;
+}
+
+.myshp_list_product_border_top_corner_right{
+	text-align: left;
+	padding: 10px;
+}
+
+.myshp_breadcrumb{
+	position: absolute !important;
+    top: 8px !important;
+}
+
+#myshp_content a.myshp_breadcrumb_link:link, 
+#myshp_content a.myshp_breadcrumb_link:active,
+#myshp_content a.myshp_breadcrumb_link:visited, 
+#myshp_content a.myshp_breadcrumb_link:hover {
+    font-family: Tahoma, Arial, 'Open Sans', sans-serif;
+    font-size: 11px !important;
+}
+
+.myshp_active_menu_item > a{
+    font-family: Tahoma, Arial, Droid Sans, 'Open Sans', sans-serif;
+	color: #666 !important;
+    font-size: 14px !important;
+}
+
+.myshp_menu_side_categories_2{
+	padding-left: 10px;
+}
+
+.myshp_menu_side_categories_3{
+	padding-left: 10px;
+}
+
+.myshp_list_product_border_top_corner_right {
+	text-align: center !important;
+}
+
+#myshp_info_product{
+    padding: 15px;
+}
+
+#myshp_info_navigation a {
+    font-family: Tahoma, Arial, Droid Sans, 'Open Sans', sans-serif;
+    color: #685C53 !important;
+    font-size: 11px !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	.myshp_block_share{
+		width: 60px;
+	}
+
+	#myshp_searchbutton{
+		margin-top: -18px;
+	}
+}
+
+.myshp_list_product_order_button {
+    background: none repeat scroll 0 0 #111 !important;
+    color: white !important;
+    display: inline-block !important;
+    font-weight: normal !important;
+    line-height: 100% !important;
+    padding: 9px 20px !important;
+    text-decoration: none !important;
+}
+
+.myshp_list_product_moreinfo_button{
+    background: none repeat scroll 0 0 #eee !important;
+    color: #000 !important;
+    display: inline-block !important;
+    font-weight: normal !important;
+    line-height: 100% !important;
+    padding: 9px 20px !important;
+    text-decoration: none !important;
+}
+
+.myshp_list_text_buttons {
+	float:left !important;
+	margin-left: 24px !important;
+	background: none repeat scroll 0 0 black;
+}
+
+.myshp_list_text_buttons a {
+	text-decoration: none !important;
+}
+
+.myshp_menu_side_categories {
+    border-left: 2px solid #666 !important;
+    margin: 5px 0 !important;
+}
+
+.myshp_info_features {
+	float: right !important;
+	display: block !important;
+    padding: 11px 5px 0 !important;
+    vertical-align: top !important;
+    white-space: normal !important;
+    width: 342px !important;
+}
+
+.myshp_info_description_long {
+	float: right !important;
+	width: 52%;
+}
+
+.myshp_info_price_value {
+    font-size: 24px !important;
+    line-height: 26px !important;
+	color: #666 !important;
+	font-weight: normal !important;
+}
+
+#myshp_info_order {
+    background-color: red !important;
+    background-image: none !important;
+    border-radius: 4px !important;
+    box-shadow: 2px 2px 2px #888888 !important;
+    color: white !important;
+    height: 40px !important;
+    padding: 0 !important;
+    text-align: center !important;
+    vertical-align: middle;
+    width: 211px !important;
+}
+
+#myshp_info_order .btn_bg_center {
+    background-image: none !important;
+    color: white !important;
+    padding: 0 !important;
+    text-align: center !important;
+    vertical-align: middle;
+	width: 170px !important;
+	margin-top: -21px !important;
+}
+
+#myshp_info_order .btn_bg_center .btn_text {
+	text-transform: uppercase !important;
+}
+
+#myshp_info_order:hover {
+	background-color: black !important;
+}
+
+#myshp_info_order .btn_bg_center:hover {
+	background-color: black !important;
+}
+
+#myshp_info_order .btn_bg_left {
+	background-image:none !important;
+}
+
+#myshp_info_order .btn_bg_right {
+	background-image:none !important;
+}
+
+.myshp_list_product_order_button {
+	background: none !important;
+}
+/** Additions for 260327**/
+body {
+    background-color: white;
+    color: black;
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#myshp_content {
+    padding-left: 0px;
+    width: 100%;
+}
+.myshp_list_navigation{
+    height: 25px;
+}
+.title_bold, .adviesprijs {
+    color: red;
+}
+
+a.meerinfotext_on_productpage, a.meerinfotext_on_productpage:link {
+    color: black;
+    text-decoration: none;
+}
+
+a.meerinfotext_on_productpage:hover, a.meerinfotext_on_productpage:active, a.meerinfotext_on_productpage:visited {
+    color: red;
+    text-decoration: underline;
+}
+
+td {
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-family: Trebuchet MS
+}
+
+a:link, a:visited, a:active, a:active, a:hover {
+    color: #0000ff
+}
+
+a.active:active, a.notactive:active {
+    font-weight: bold
+}
+
+a.active:hover, a.notactive:hover {
+    color: #ff0000
+}
+
+.w {
+    background-color: #F1F5F7
+}
+
+.border {
+    border: 1;
+    border-top-width: 1;
+    border-right-width: 1;
+    border-bottom-width: 1;
+    border-left-width: 1;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+    border-style: solid
+}
+
+.top {
+    border: 1;
+    border-top-width: 1;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-color: #FFFFFF;
+    border-style: solid
+}
+

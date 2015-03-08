@@ -20,8 +20,12 @@ body, input, textarea {
 }
 
 a {
-    color: #1982D1 !important;
+    color: #1982D1;
     text-decoration: none;
+}
+
+#myshp_menu_side_basket #myshp_menu_side_basket_content a {
+    color: #838383;
 }
 
 ul, ol {
@@ -103,7 +107,7 @@ h1{
 }
 
 .myshp_menu_side_item{
-	background: none repeat scroll 0 0 #ECF7FD;
+	background: none repeat scroll 0 0 #fff;
     color: #F3D2FD;
     line-height: 30px;
     list-style-type: none;
@@ -112,31 +116,31 @@ h1{
 }
 
 .myshp_menu_side_item:nth-child(odd){
-    background: none repeat scroll 0 0 #D4ECF8;    
+    background: none repeat scroll 0 0 #fff;    
 }
 
 .myshp_menu_side_submenu_item2{
-    background: none repeat scroll 0 0 #ECF7FD; 
+    background: none repeat scroll 0 0 #fff; 
     display: inline-block;
     float: left;
 }
 
 .myshp_menu_side_categories_2:nth-child(even) > .myshp_menu_side_submenu_item2{
-    background: none repeat scroll 0 0 #D4ECF8;    
+    background: none repeat scroll 0 0 #fff;    
 }
 
 .myshp_menu_side_submenu_item3{
-    background: none repeat scroll 0 0 #ECF7FD;
+    background: none repeat scroll 0 0 #fff;
     display: inline-block;
     float: left;
 }
 
 .myshp_menu_side_categories_3:nth-child(even) > .myshp_menu_side_submenu_item3{
-    background: none repeat scroll 0 0 #D4ECF8;    
+    background: none repeat scroll 0 0 #fff;    
 }
 
 .myshp_menu_side_categories a{
-    border-top: 1px solid #BFE4F4;
+    border-top: 1px solid #eee;
     border-width: 1px 0;
     box-shadow: none;
     color: #A3B7C0 !important;
@@ -279,4 +283,15 @@ h1{
 #myshp_info_product .myshp_list_product{
     width: auto !important;
     margin-bottom: 20px;
+}
+
+#myshp_menu_side img {
+	height:80px !important;
+}
+
+.btn_inwinkelmandje {
+	border-radius: 4px;
+	border: 1px solid gray;
+	background-color:#eee;
+	padding:4px;
 }
