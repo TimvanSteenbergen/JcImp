@@ -83,14 +83,6 @@
 						</div>
 						<!-- Fields -->
 						<table>
-							<span style="myshop-repeat:product-features">
-								<span style="myshop-not-is:feature-price">
-									<tr class="myshp_info_row" style="myshop-has-value:feature">
-										<td class="myshp_info_label"><span style="myshop-feature:label"/>:&nbsp;&nbsp;</td>
-										<td class="myshp_info_value" style="myshop-feature:value"></td>
-									</tr>
-								</span>
-							</span>
 
 							<!-- *** Deze werken nog niet -->
 							<!--
@@ -103,10 +95,9 @@
 							-->
 
 							<tr class="myshp_info_row">
-								<td class="myshp_info_price_label"><!--<span style="myshop-product:label"/>-->prijs:&nbsp;&nbsp;</td>
 								<td class="myshp_info_price_value" style="myshop-product:price;"></td>
 							</tr>
-						
+
 							<span style="myshop-is:in-stock">
 								<span style="myshop-has:order;">
 									<span style="myshop-has:quantity-field;">
@@ -127,7 +118,7 @@
 													<span class="btn_bg_left"></span>
 													<span class="btn_bg_center">
 														<span class="btn_icon"></span>
-														<span class="btn_text" style="myshop-resource:order.lowercase">bestel</span>
+														<span class="btn_text">in winkelmandje</span>
 													</span>			
 													<span class="btn_bg_right"></span>
 												</a>
@@ -147,86 +138,34 @@
 							</span>
 						</table>
 						<!-- Order button -->
+
+    					<div class="myshp_info_description_long" style="myshop-product:description-long;"/>
 					</div>
 
-					<div class="clear"/>
-
-					<div class="myshp_info_description_long" style="myshop-product:description-long;"/>
-					
 					<div class="clear"/>
 				
 					<!-- Begin - Related Products -->
 					<div id="myshp_basket_related" style="myshop-block:related-products">
 					   <div id="myshp_basket_related_header">
-						  <h4 class="myshp_basket_related_title" style="myshop-style-color:{$color(3)};"><span style="myshop-resource:related.title">Bijpassende artikelen</span></h4>
+						  <h4 class="myshp_basket_related_title" style="myshop-style-color:{$color(3)};">Aanbevolen producten</h4>
 					   </div>
-					   <table border="0" cellspacing="0" cellpadding="0" width="100%" style="myshop-block:productlist">
-						  <tr style="myshop-block:product">
-							 <td valign="top" class="myshp_basket_related_product_row">
-								<div class="myshp_basket_related_product_image">
+					   <div style="myshop-block:productlist">
+						  <div style="myshop-block:product" class="related_product">
+                                 <div class="myshp_basket_related_product_title" style="myshop-product:title;">&nbsp;</div>
+                                 <div class="myshp_basket_related_product_image" style="width:120px;">
 								   <!--<img src="myshop-product:image;" height="myshop-product:image-height" width="myshop-product:image-width" title="myshop-product:title" alt="myshop-product:title"/>-->
-								   <img src="myshop-product:image;" title="myshop-product:title" alt="myshop-product:title"/>
-								</div>
-								<div class="myshp_basket_related_product_details">
-								   <div class="myshp_basket_related_product_title" style="myshop-product:title;">&nbsp;</div>
-								   <div class="myshp_basket_related_product_description" style="myshop-product:description-short;">&nbsp;</div>
-								</div>
-								<div class="myshp_basket_related_features">
-								   <div style="myshop-repeat:product-features">
-									  <span class="myshp_basket_related_label" style="myshop-feature:label;">&nbsp;</span>
-									  <div style="myshop-not-is:feature-price">
-										 <span class="myshp_basket_related_field" style="myshop-feature:value;">&nbsp;</span><br/>
-									  </div>
-									  <div style="myshop-is:feature-price">
-										 <b>
-											<span class="myshp_basket_related_field" style="myshop-feature:value;">&nbsp;</span><br/>
-										 </b>
-									  </div>
-								   </div>
-								   <div class="myshp_control_buttons">
-									  <div style="myshop-is:in-stock">
-										 <div style="myshop-has:control-quantity">
-											<span class="myshp_basket_related_label" style="myshop-control-label:quantity">&nbsp;</span>
-											<div class="myshp_basket_related_field">
-											   <input style="myshop-control:quantity" size="10" class="myshp_basket_related_field"/>&nbsp;
-											   <span style="myshop-control-label:quantity-metric">&nbsp;</span>
-											</div>
-										 </div>
-									  </div>
-									 <a class="myshp_button icon_align_left icon_image_arrow_left" style="myshop-action:moreinfo;">
-										<span class="btn_bg_left">&nbsp;</span>
-										<span class="btn_bg_center">
-										   <span class="btn_icon">&nbsp;</span>
-										   <span class="btn_text">
-												<span style="myshop-resource:moreinfo">Meer info</span>
-										   </span>
-										</span>
-										<span class="btn_bg_right">&nbsp;</span>
-									 </a>
-									  <div style="myshop-is:in-stock">
-										 <a class="myshp_button icon_align_right icon_image_shopping_cart" style="myshop-action:order">
-											<span class="btn_bg_left">&nbsp;</span>
-											<span class="btn_bg_center">
-											   <span class="btn_icon">&nbsp;</span>
-											   <span class="btn_text">
-												<span style="myshop-resource:order.lowercase">bestel</span>
-											   </span>
-											</span>
-											<span class="btn_bg_right">&nbsp;</span>
-										 </a>
-									  </div>
-								   </div>
-								</div>
-							 </td>
-						  </tr>
-					   </table>
-					</div>	
-					<!-- End - Related Products -->				
+                                    <img src="myshop-product:image;" title="myshop-product:title" alt="myshop-product:title"/>
+                                 </div>
+                                 <div class="related-product-price" style="myshop-value:9;">prijs</div>
+						  </div>
+					   </div>
+					</div>
+					<!-- End - Related Products -->
 
-				<!-- Product block end -->
+                    <!-- Product block end -->
 				</div>
-	
-			<!-- Productlist block end -->
+
+                <!-- Productlist block end -->
 			</div>
 			<div class="clear"/>
 

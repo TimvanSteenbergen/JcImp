@@ -365,7 +365,9 @@ body #myshp, body #myshp-body{
     min-height: 55px !important;
 	text-transform: uppercase !important;
 }
-
+.myshp_list_product_title{
+    font-weight: normal !important;
+}
 .myshp_list_product_title a span {
     color: #000000 !important;
 }
@@ -386,6 +388,13 @@ body #myshp, body #myshp-body{
     font-size: 11px !important;
     line-height: 24px !important;
 	color: #666 !important;
+}
+.myshp_list_product_value_price{
+    font-size: 12px !important;
+    color: rgb(102, 102, 102) !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
 }
 /*
 .myshp_menu_side_categories_1{
@@ -524,12 +533,12 @@ body #myshp, body #myshp-body{
     padding: 11px 5px 0 !important;
     vertical-align: top !important;
     white-space: normal !important;
-    width: 342px !important;
+    width: 50% !important;
 }
 
 .myshp_info_description_long {
 	float: right !important;
-	width: 52%;
+	width: 100%;
 }
 
 .myshp_info_price_value {
@@ -540,7 +549,7 @@ body #myshp, body #myshp-body{
 }
 
 #myshp_info_order {
-    background-color: red !important;
+    background-color: #DD0000 !important;
     background-image: none !important;
     border-radius: 4px !important;
     box-shadow: 2px 2px 2px #888888 !important;
@@ -661,3 +670,27 @@ a.active:hover, a.notactive:hover {
     border-style: solid
 }
 
+.icon_image_shopping_cart .btn_bg_center .btn_icon {
+    background-image: url("http://myshop.s3-external-3.amazonaws.com/shop260300.images.260327_shoppingcart.png") !important;
+    height: 23px;
+    top: 7px;
+    right: 23px;
+    width: 35px;
+}
+#myshp_info_order:hover .icon_image_shopping_cart .btn_bg_center .btn_icon{
+    background-image: url("http://myshop.s3-external-3.amazonaws.com/shop260300.images.260327_shoppingcart_black.png") !important;
+}
+.related_product{
+    height: 200px;
+    width: 120px;
+    float: left
+}
+.related-product-price{
+    width: 70px;
+    font-size: 12px !important;
+    color: rgb(102, 102, 102) !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0px auto 0px;
+
+}

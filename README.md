@@ -54,5 +54,6 @@ These are the customers of JcImp:
     24      Mooi medisch Sportief   http://mooimedischsportief.jc-imp.nl/
     25      Stendershop             http://stendershop.jc-imp.nl/                       www.annettestender.nl
     26      Beauty Results          http://260326.mijnwinkel.nl/                        www.beautyresult.nl
+    27      Diana Gabriels          http://www.dianagabriels.com/
 
 
